@@ -1,0 +1,1538 @@
+[
+  {
+    "doi": "10.1016/j.physletb.2012.01.070",
+    "title": "Suppression of high <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si1.gif\" overflow=\"scroll\"><mml:msub><mml:mi>p</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:math> hadrons in Pb + Pb collisions at LHC",
+    "abstract": "Hadron production and their suppression in Pb+Pb collisions at LHC at a\\ncenter-of-mass energy of s_NN = 2.76 TeV are studied within a multiphase\\ntransport (AMPT) model whose initial conditions are obtained from the recently\\nupdated HIJING 2.0 model. The centrality dependence of charged hadron\\nmultiplicity dN_ch/deta at midrapidity was found quite sensitive to the largely\\nuncertain gluon shadowing parameter s_g that determines the nuclear\\nmodification of the gluon distribution. We find fina",
+    "ground_truth_topic": "Quark-Gluon Plasma",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 527
+  },
+  {
+    "doi": "10.1016/s0168-9002(01)01990-8",
+    "title": "The Cryo-Thermochromatographic Separator (CTS):",
+    "abstract": "",
+    "ground_truth_topic": "Nuclear Structure",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 93
+  },
+  {
+    "doi": "10.1023/a:1026018811877",
+    "title": "Search for Water in Martian Soil Using Global Neutron Mapping by the Russian HEND Instrument Onboard the US 2001 Mars Odyssey Spacecraft",
+    "abstract": "",
+    "ground_truth_topic": "Mars Exploration",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 406
+  },
+  {
+    "doi": "10.1016/b978-012655330-7/50055-1",
+    "title": "Models for the Study of Pancreatitis",
+    "abstract": "",
+    "ground_truth_topic": "Pancreatitis",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 760
+  },
+  {
+    "doi": "10.1007/11612735_20",
+    "title": "Nonminimum Phase Output Tracking Control Strategies for DC-to-DC Power Converters",
+    "abstract": "",
+    "ground_truth_topic": "Robotic Control",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 40
+  },
+  {
+    "doi": "10.1007/978-3-642-39476-8_19",
+    "title": "Preliminary Design of a Network Protocol Learning Tool Based on the Comprehension of High School Students: Design by an Empirical Study Using a Simple Mind Map",
+    "abstract": "",
+    "ground_truth_topic": "Computational Thinking",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 533
+  },
+  {
+    "doi": "10.1080/10971475.2003.11033470",
+    "title": "The Historical Origin of Chinese \"Neoliberalism\" : Another Discussion on the Ideological Situation in Contemporary Mainland China and the Issue of Modernity",
+    "abstract": "(2003). The Historical Origin of Chinese 'Neoliberalism' : Another Discussion on the Ideological Situation in Contemporary Mainland China and the Issue of Modernity. The Chinese Economy: Vol. 36, No. 4, pp. 3-42.",
+    "ground_truth_topic": "Althusserian Studies",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 4278
+  },
+  {
+    "doi": "10.1007/3-540-30023-6_27",
+    "title": "Pest Control: Does the Answer Lie in New Biotechnologies?",
+    "abstract": "",
+    "ground_truth_topic": "Wildlife Ecology",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 199
+  },
+  {
+    "doi": "10.2312/vast/vast11/137-144",
+    "title": "A Methodology for the Physically Accurate Visualisation of Roman Polychrome Statuary",
+    "abstract": "This paper describes the design and implementation of a methodology for the visualisation and hypothetical virtual reconstruction of Roman polychrome statuary for research purposes. The methodology is intended as an attempt to move beyond visualisations which are simply believable towards a more physically accurate approach. Accurate representations of polychrome statuary have great potential utility both as a means of illustrating existing interpretations and as a means of testing and revising ",
+    "ground_truth_topic": "Computer Graphics",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 481
+  },
+  {
+    "doi": "10.1007/978-3-642-11164-8_97",
+    "title": "Comparison of GARCH, Neural Network and Support Vector Machine in Financial Time Series Prediction",
+    "abstract": "",
+    "ground_truth_topic": "Stock Market Prediction",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 1326
+  },
+  {
+    "doi": "10.11150/kansenshogakuzasshi.88.715",
+    "title": "Analysis of 23S rRNA of &lt;i&gt;Mycoplasma pneumoniae &lt;/i&gt;Detected from Pediatric Inpatients with Community-acquired Pneumonia in a Regional Hospital in Japan",
+    "abstract": "",
+    "ground_truth_topic": "Pneumonia",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 654
+  },
+  {
+    "doi": "10.1007/978-3-642-27180-9_13",
+    "title": "Development of Remote Monitoring and Control Device for 50KW PV System Based on the Wireless Network",
+    "abstract": "",
+    "ground_truth_topic": "Grid Computing",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 715
+  },
+  {
+    "doi": "10.1016/j.amepre.2008.05.006",
+    "title": "The Social Determinants of Cancer",
+    "abstract": "",
+    "ground_truth_topic": "Interdisciplinary Research",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 2766
+  },
+  {
+    "doi": "10.1007/978-94-007-0973-7_1",
+    "title": "Environmental Security and Human Security",
+    "abstract": "",
+    "ground_truth_topic": "Climate and Conflict",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 1755
+  },
+  {
+    "doi": "10.1007/978-3-531-19691-6_16",
+    "title": "Story Telling \u2013 Geschichten Erz\u00e4hlen in evolutionstheoretischer Perspektive",
+    "abstract": "",
+    "ground_truth_topic": "Evolutionary Psychology",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 1118
+  },
+  {
+    "doi": "10.4324/9780203772485-7",
+    "title": "CONTEXT, MODULARITY, AND THE CULTURAL CONSTITUTION OF DEVELOPMENT",
+    "abstract": "",
+    "ground_truth_topic": "Social Cognitive Theory",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 726
+  },
+  {
+    "doi": "10.1007/978-3-319-10076-0_1",
+    "title": "An Easy-To-Build, Low-Cost, High-Performance SailBot",
+    "abstract": "",
+    "ground_truth_topic": "Maritime Safety",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 1622
+  },
+  {
+    "doi": "10.1016/b978-012498660-2/50044-6",
+    "title": "Microwave Scattering by Precipitation",
+    "abstract": "",
+    "ground_truth_topic": "Aerosol Climate Hydrology",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 347
+  },
+  {
+    "doi": "10.1023/a:1021146002662",
+    "title": "Preparation and Characterization of Polyester Based on bis- (2- hydroxypropyl terephthalate)",
+    "abstract": "",
+    "ground_truth_topic": "Epoxy Resins",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 1145
+  },
+  {
+    "doi": "10.1007/bf03165682",
+    "title": "Estimating exceedance frequencies of extreme river discharges using statistical methods and physically based approach",
+    "abstract": "",
+    "ground_truth_topic": "Drought Monitoring",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 1186
+  },
+  {
+    "doi": "10.2139/ssrn.276333",
+    "title": "Copyright and Internet Music Transmissions: Existing Law, Major Controversies, Possible Solutions",
+    "abstract": "",
+    "ground_truth_topic": "Digital Piracy",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 1769
+  },
+  {
+    "doi": "10.1007/978-3-540-44736-8_379",
+    "title": "Magnetic anisotropy data of C4H5Al",
+    "abstract": "",
+    "ground_truth_topic": "Aromaticity",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 1298
+  },
+  {
+    "doi": "10.1177/039139880202500409",
+    "title": "In Vitro Blood Damage by High Shear Flow: Human versus Porcine Blood",
+    "abstract": "Devices for modern heart support are minimized to reduce priming blood volume and contact area with foreign surfaces. Their flow fields are partly governed by very high velocity gradients. In order to investigate blood damage, porcine and human blood was passed through a narrow Couette type shear gap applying defined high shear rates within the typical range for devices such as blood pumps or artificial heart valves (\u03b3 = 1800/s to 110,000/s for 400 ms). Traumatization profiles of both blood spec",
+    "ground_truth_topic": "Mechanical Circulatory Support",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 675
+  },
+  {
+    "doi": "10.17660/actahortic.2004.664.77",
+    "title": "SOIL CO2 FLUX MEASUREMENTS IN VINEYARD ECOSYSTEM",
+    "abstract": "Many recent studies on climate change indicate the soil as a major source for atmospheric CO 2 . Oxidation of soil organic matter and the respiration of plant roots produce the soil CO 2  and the efflux rate to the atmosphere depends on the concentration gradient and aerodynamic resistance. Knowledge of soil respiration rate from cultivated ecosystems is important for determining the role of these ecosystems in the global carbon balance. This paper presents the results from short-term measuremen",
+    "ground_truth_topic": "Forest Drought Response",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 266
+  },
+  {
+    "doi": "10.1007/978-3-642-18701-8_29",
+    "title": "Fiberoptische Intubation \u2014 Wiederaufbereitung",
+    "abstract": "",
+    "ground_truth_topic": "Medical Ethics",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 3275
+  },
+  {
+    "doi": "10.1007/978-1-4471-2155-8_42",
+    "title": "Improved Secret Image Sharing Method By Encoding Shared Values With Authentication Bits",
+    "abstract": "",
+    "ground_truth_topic": "Digital Watermarking",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 388
+  },
+  {
+    "doi": "10.1007/978-3-642-39165-1_45",
+    "title": "Exponential Family of Level Dependent Choquet Integral Based Class-Conditional Probability Functions",
+    "abstract": "",
+    "ground_truth_topic": "Skew Distributions",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 968
+  },
+  {
+    "doi": "10.1007/978-94-011-4058-4_12",
+    "title": "The Paradoxical Transformation of Existence",
+    "abstract": "",
+    "ground_truth_topic": "Phenomenology",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 1592
+  },
+  {
+    "doi": "10.1007/978-3-540-28355-3_2",
+    "title": "Comparative Analysis of Case Studies",
+    "abstract": "",
+    "ground_truth_topic": "Water Politics",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 2248
+  },
+  {
+    "doi": "10.2139/ssrn.2400874",
+    "title": "The 2013 Philippine Mid-Term Election: An Empirical Analysis of Dynasties, Vote Buying and the Correlates of Senate Votes",
+    "abstract": "",
+    "ground_truth_topic": "Clientelism",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 777
+  },
+  {
+    "doi": "10.2340/00015555-0907",
+    "title": "Thirty-year History of Palmar Eruptions: A Quiz",
+    "abstract": "",
+    "ground_truth_topic": "Oral Mucosal Disorders",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 1452
+  },
+  {
+    "doi": "10.1007/978-3-319-05356-1_5",
+    "title": "Multi-valued Logic for a Point-Free Foundation of Geometry",
+    "abstract": "",
+    "ground_truth_topic": "Constraint Optimization",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 1596
+  },
+  {
+    "doi": "10.1007/978-3-642-00473-5_60",
+    "title": "Medical Legal Aspects of Autologous Fat Transplantation",
+    "abstract": "",
+    "ground_truth_topic": "Facial Fillers",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 1322
+  },
+  {
+    "doi": "10.1023/a:1024703702614",
+    "title": "Chemically Modified Complexing Silicas: Predicting Analytical Applications",
+    "abstract": "",
+    "ground_truth_topic": "Mesoporous Materials",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 735
+  },
+  {
+    "doi": "10.1044/hcoa13.1.3",
+    "title": "Promoting Hearing Loss Prevention in Audiology Practice",
+    "abstract": "An audiologist should be the principal provider and advocate for all hearing loss prevention activities. Many audiologists equate hearing loss prevention with industrial audiology and occupational hearing conservation programs. However, an audiologist\u2019s involvement in hearing loss prevention should not be confined to that one particular practice setting. In addition to supervising occupational programs, audiologists are uniquely qualified to raise awareness of hearing risks, organize public heal",
+    "ground_truth_topic": "Cochlear Neuropathy",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 334
+  },
+  {
+    "doi": "10.1007/978-3-642-28490-8_52",
+    "title": "Formal Agent-Oriented Ubiquitous Computing: A Computational Intelligence Support for Information and Services Integration",
+    "abstract": "",
+    "ground_truth_topic": "Agent-Based Modeling",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 456
+  },
+  {
+    "doi": "10.1007/978-1-4939-2068-6_14",
+    "title": "Well and Field Monitoring",
+    "abstract": "",
+    "ground_truth_topic": "Hydraulic Fracturing",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 635
+  },
+  {
+    "doi": "10.1016/b978-0-12-405939-9.00016-5",
+    "title": "Open Population Models",
+    "abstract": "",
+    "ground_truth_topic": "Freshwater Biodiversity",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 302
+  },
+  {
+    "doi": "10.1007/s12204-014-1552-0",
+    "title": "Lesion segmentation and identification of breast tumor on dynamic contrast-enhanced magnetic resonance imaging",
+    "abstract": "",
+    "ground_truth_topic": "Breast MRI",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 1885
+  },
+  {
+    "doi": "10.1007/978-3-319-11331-9_6",
+    "title": "Fur Visualisation for Computer Game Engines and Real-Time Rendering",
+    "abstract": "",
+    "ground_truth_topic": "Computer Graphics",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 481
+  },
+  {
+    "doi": "10.1016/b978-0-12-386454-3.00553-4",
+    "title": "Environmental Exposure Assessment",
+    "abstract": "",
+    "ground_truth_topic": "Persistent Organic Pollutants",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 122
+  },
+  {
+    "doi": "10.1007/978-3-319-03844-5_71",
+    "title": "Identifying Psychological Theme Words from Emotion Annotated Interviews",
+    "abstract": "",
+    "ground_truth_topic": "Sentiment Analysis",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 664
+  },
+  {
+    "doi": "10.1007/978-1-4020-9378-4_2",
+    "title": "Oxidation of Alcohols, Carbohydrates and Diols",
+    "abstract": "",
+    "ground_truth_topic": "Alcohol Oxidation",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 1989
+  },
+  {
+    "doi": "10.1007/978-1-4614-4502-9_10",
+    "title": "Long-Term Care in Spain: Between Family Care Tradition and the Public Recognition of Social Risk",
+    "abstract": "",
+    "ground_truth_topic": "Welfare State Politics",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 443
+  },
+  {
+    "doi": "10.1097/ta.0b013e31824ef9ec",
+    "title": "Venous thromboembolism in the elderly",
+    "abstract": "II, prognostic study.",
+    "ground_truth_topic": "Venous Thromboembolism",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 285
+  },
+  {
+    "doi": "10.1007/978-3-642-16353-1_2",
+    "title": "Gesellschaftliche, nat\u00fcrliche und technische Rahmenbedingungen der Braunkohlesanierung",
+    "abstract": "",
+    "ground_truth_topic": "Mine Planning",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 3065
+  },
+  {
+    "doi": "10.1111/j.1467-8578.1976.tb01060.x",
+    "title": "Handwriting and Spina Bifida",
+    "abstract": "Why do children with spina bifida and hydrocephalus tend to have poor handwriting? Dr. Elizabeth Anderson, research officer, Thomas Coram Research Unit, London University Institute of Education, suggests reasons and remedial help",
+    "ground_truth_topic": "Writing Instruction",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 2070
+  },
+  {
+    "doi": "10.1007/1-4020-2954-3_1",
+    "title": "Researching Applied Linguistics in Language Teacher Education",
+    "abstract": "",
+    "ground_truth_topic": "Language Teaching",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 21
+  },
+  {
+    "doi": "10.1007/3-540-47789-6_51",
+    "title": "Multisymplectic Spectral Methods for the Gross-Pitaevskii Equation",
+    "abstract": "",
+    "ground_truth_topic": "Numerical Integration",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 1416
+  },
+  {
+    "doi": "10.1007/978-3-322-93257-0_6",
+    "title": "Anfragen an das Konzept einer \u201eBildung f\u00fcr nachhaltige Entwicklung\u201c",
+    "abstract": "Konstitutives Ziel des Oberstufen-Kollegs ist Allgemeine Bildung im Medium einer allgemeinen Wissenschaftsprop\u00e4deutik. Diese ist inhaltlich kaum fixiert (kein Kanon, keine \u00fcbergreifende p\u00e4dagogische Programmatik), sondern nur strukturell und prozedural: Spezialisierung und diese \u00fcberschreitende Verst\u00e4ndigung, Lernen unter der Pr\u00e4misse von Heterogenit\u00e4t und im weitesten Sinne interkulturelle Zusammenarbeit, Problem- und Projektorientierung, Kooperation und Reflexion. Das hindert nicht, sondern be",
+    "ground_truth_topic": "Sustainability Education",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 1835
+  },
+  {
+    "doi": "10.1162/jinh.2007.37.3.471",
+    "title": "<i>Race Over Empire: Racism &amp; U.S. Imperialism, 1865\u20131900</i>. By Eric T. L. Love (Chapel Hill, University of North Carolina Press, 2004) 245 pp. $55.00 cloth $19.95 paper",
+    "abstract": "January 01 2007 Race Over Empire: Racism U.S. Imperialism, 1865\u20131900. By Eric T. L. Love (Chapel Hill, University of North Carolina Press, 2004) 245 pp. $55.00 cloth $19.95 paper Gerald Horne Gerald Horne Search for other works by this author on: This Site Google Scholar Author and Article Information Gerald Horne Online ISSN: 1530-9169 Print ISSN: 0022-1953 \u00a9 2006 Massachusetts Institute of Technology and The Journal of Interdisciplinary History, Inc.2006 The Journal of Interdisciplinary Histor",
+    "ground_truth_topic": "International Relations",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 53
+  },
+  {
+    "doi": "10.1007/s11618-012-0311-y",
+    "title": "Alphabet, Bibel, Katechismus: Das ABC der vormodernen Grundschule in den Niederlanden",
+    "abstract": "",
+    "ground_truth_topic": "Reformation Studies",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 2409
+  },
+  {
+    "doi": "10.1007/978-3-540-87978-7_12",
+    "title": "Spatial Heterogeneity in Mycorrhizal Populations and Communities: Scales and Mechanisms",
+    "abstract": "",
+    "ground_truth_topic": "Mycorrhizal Fungi",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 451
+  },
+  {
+    "doi": "10.22323/1.055.0052",
+    "title": "Electroweak physics at the LHC",
+    "abstract": "Precise measurements of electroweak parameters represent an important aspect of the LHC physics program. This paper discusses the measurement of the W boson mass, of the top quark mass, of the Z forward-backward asymmetry and of the production cross-section of boson pairs. The high center of mass energy of LHC and the large statistics samples of W, top, Z and diboson events that will be collected by the two general-purpose detectors ATLAS and CMS, will allow to improve the precision already achi",
+    "ground_truth_topic": "Particle Physics",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 48
+  },
+  {
+    "doi": "10.1201/9781420019384.ch6",
+    "title": "RNA Viruses and RNA-Based Drugs A Perfect Match for RNA Delivery and the Identification of Candidate Therapeutic Target Inflammatory Molecules",
+    "abstract": "",
+    "ground_truth_topic": "Arboviral Diseases",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 166
+  },
+  {
+    "doi": "10.1016/b978-008045046-9.01463-7",
+    "title": "Neuropeptides Phylogeny and Evolution",
+    "abstract": "",
+    "ground_truth_topic": "Puberty Regulation",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 960
+  },
+  {
+    "doi": "10.1007/978-94-6091-546-8_20",
+    "title": "Research into Primary-Aged Children\u2019s Designing",
+    "abstract": "Learning to design through the activity of designing is a fundamental element of children's experience in Design and Technology education in many countries across the world. In England, for example, the significance of designing has been reinforced through successive versions of the programmes of study outlined in the National Curriculum: children should be taught designing skills; they should be involved in designing and making assignments; and assessments of children's performance should be ma",
+    "ground_truth_topic": "Design Thinking",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 672
+  },
+  {
+    "doi": "10.21437/icslp.2002-438",
+    "title": "Design of an audio-visual speech corpus for the czech audio-visual speech synthesis",
+    "abstract": "",
+    "ground_truth_topic": "Face Recognition",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 1448
+  },
+  {
+    "doi": "10.1007/978-3-642-45330-4_13",
+    "title": "A Platform for Disaster Response Planning with Interdependency Simulation Functionality",
+    "abstract": "",
+    "ground_truth_topic": "Infrastructure Resilience",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 1807
+  },
+  {
+    "doi": "10.1007/978-1-84628-346-8_16",
+    "title": "Vaginal Approach to Postsurgical Bladder Outlet Obstruction",
+    "abstract": "",
+    "ground_truth_topic": "Pelvic Floor Disorders",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 418
+  },
+  {
+    "doi": "10.1007/978-94-007-1318-5_4",
+    "title": "Date Palm Micropropagation via Somatic Embryogenesis",
+    "abstract": "",
+    "ground_truth_topic": "Plant Metabolite Production",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 240
+  },
+  {
+    "doi": "10.1007/978-3-540-69313-0_1",
+    "title": "Investigating the Relationship between Creep and Water Flow Capacity of Geosynthetics",
+    "abstract": "",
+    "ground_truth_topic": "Landfill Management",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 1952
+  },
+  {
+    "doi": "10.1017/s0001924000013270",
+    "title": "The use of evacuation modelling techniques in the design of very large transport aircraft and blended wing body aircraft",
+    "abstract": "Abstract Very Large Transport Aircraft (VLTA) pose considerable challenges to designers, operators and certification authorities. Questions concerning seating arrangement, nature and design of recreational space, the number, design and location of internal staircases, the number of cabin crew required and the nature of the cabin crew emergency procedures are just some of the issues that need to be addressed. Other more radical concepts such as blended wing body (BWB) design, involving one or two",
+    "ground_truth_topic": "Pedestrian Dynamics",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 1500
+  },
+  {
+    "doi": "10.1016/b978-0-12-394848-9.00018-3",
+    "title": "Times of Increased Probabilities for Occurrence of\u00a0Catastrophic Earthquakes",
+    "abstract": "",
+    "ground_truth_topic": "Seismicity",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 110
+  },
+  {
+    "doi": "10.1007/978-3-642-34904-1_31",
+    "title": "On a Continuous-Time Stock Price Model with Two Mean Reverting Regimes",
+    "abstract": "",
+    "ground_truth_topic": "Option Pricing",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 67
+  },
+  {
+    "doi": "10.2139/ssrn.2417843",
+    "title": "How Might Corporate Charters Be Amended to Enhance Investor Returns?",
+    "abstract": "",
+    "ground_truth_topic": "Corporate Governance",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 19
+  },
+  {
+    "doi": "10.5220/0001535500570064",
+    "title": "A COMPUTATIONAL SALIENCY MODEL INTEGRATING SACCADE PROGRAMMING",
+    "abstract": "International audience",
+    "ground_truth_topic": "Visual Saliency",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 1605
+  },
+  {
+    "doi": "10.1023/a:1020911602622",
+    "title": "The First Finding of Pseudo-nitzschia americana (Bacillariophyta) in Russian Seas",
+    "abstract": "",
+    "ground_truth_topic": "Harmful Algal Blooms",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 1985
+  },
+  {
+    "doi": "10.1007/978-3-662-05971-5_21",
+    "title": "Helicobacter Pylori Vacuolating Cytotoxin",
+    "abstract": "",
+    "ground_truth_topic": "Helicobacter pylori",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 276
+  },
+  {
+    "doi": "10.1007/978-90-481-2501-2_7",
+    "title": "Philosophical-Historical Aspects Of Land Relations (On Example Of Russian North Nations)",
+    "abstract": "",
+    "ground_truth_topic": "Phenomenology",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 1592
+  },
+  {
+    "doi": "10.1007/978-3-642-13781-5_8",
+    "title": "Strategies for New Agent Development and Clinical Trial Considerations",
+    "abstract": "",
+    "ground_truth_topic": "Childhood Leukemia",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 950
+  },
+  {
+    "doi": "10.2741/2242",
+    "title": "Emerging concepts in preeclampsia investigation",
+    "abstract": "Preeclampsia is a disorder that uniquely affects pregnancy and profoundly alters the short- and long-term health of the mother and fetus. The pathophysiologic processes that underlie preeclampsia can be thought of in two stages: stage 1, reduced placental perfusion, and stage 2, the maternal clinical syndrome. Multiple pathophysiologic processes influence stage one, affecting trophoblast invasion and placental function. These processes in some women result in stage two, with subsequent maternal ",
+    "ground_truth_topic": "Preeclampsia",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 290
+  },
+  {
+    "doi": "10.1007/978-3-642-39265-8_17",
+    "title": "A Pedestrian Navigation Method for User\u2019s Safe and Easy Wayfinding",
+    "abstract": "",
+    "ground_truth_topic": "Spatial Ability",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 1904
+  },
+  {
+    "doi": "10.2165/00044011-200019060-00001",
+    "title": "Butenafine 1% versus Terbinafine 1% in Cream for the Treatment of Tinea Pedis",
+    "abstract": "",
+    "ground_truth_topic": "Fungal Skin Infections",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 1253
+  },
+  {
+    "doi": "10.2139/ssrn.1863697",
+    "title": "Family Business and Capital Markets: A Survey of Evidence",
+    "abstract": "",
+    "ground_truth_topic": "Corporate Governance",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 19
+  },
+  {
+    "doi": "10.1007/978-1-4419-0164-4_10",
+    "title": "Advancing Patient Safety Through the Practice of Managerial Epidemiology",
+    "abstract": "",
+    "ground_truth_topic": "Patient Safety",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 508
+  },
+  {
+    "doi": "10.1097/00029330-201309050-00044",
+    "title": "Targetoid hemosiderotic hemangioma (hobnail hemangioma): typical clinical and histological presentation",
+    "abstract": "To the editor: Targetoid hemosiderotic hemangioma (THH), also known as Hobnail Hemangioma (HH) is characterized by a violaceous to brown targetoid lesion. The classic histological presentation of THH is that of ectatic vascular lumina mainly in the superficial and mid-dermis lined by a single layer of endothelial cells with hobnail appearance. We report here a case of THH in China with distinctive clinical features. A 71-year-old woman presented with a seven-day history of a solitary lesion on h",
+    "ground_truth_topic": "Vascular Anomalies",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 980
+  },
+  {
+    "doi": "10.1016/b978-0-12-405914-6.00006-8",
+    "title": "Two-Dimensional Difference Gel Electrophoresis (2D DIGE)",
+    "abstract": "",
+    "ground_truth_topic": "Mass Spectrometry",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 519
+  },
+  {
+    "doi": "10.1007/978-3-642-54681-5_14",
+    "title": "Considering Demographic Change in Planning and Implementation Processes",
+    "abstract": "",
+    "ground_truth_topic": "Neoliberal Urbanism",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 239
+  },
+  {
+    "doi": "10.1016/s0167-2991(04)80834-6",
+    "title": "Alkali-resistance of MCM-41 mesoporous molecular sieves containing various T (Al, Si, Nb) elements",
+    "abstract": "",
+    "ground_truth_topic": "Mesoporous Materials",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 735
+  },
+  {
+    "doi": "10.2741/a746",
+    "title": "Chronic alcohol intoxication primes kupffer cells and endothelial cells for enhanced CC-chemokine production and concomitantly suppresses phagocytosis and chemotaxis",
+    "abstract": "Chemokines are involved in the pathogenesis of alcoholic hepatitis and are considered to contribute to the migration of leukocytes into the liver during chronic ethanol intoxication. This work tests the hypothesis that chronic ethanol consumption selectively enhances chemokine release by Kupffer cells and hepatic sinusoidal endothelial cells and migration of inflammatory cells into the liver. Furthermore, enhanced hepatic chemokine secretion may induce an autocrine effect on the ability of Kupff",
+    "ground_truth_topic": "Alcoholic Liver Disease",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 1207
+  },
+  {
+    "doi": "10.1007/978-94-007-1655-1_1",
+    "title": "The Roman Heritage",
+    "abstract": "",
+    "ground_truth_topic": "Judicial Politics",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 802
+  },
+  {
+    "doi": "10.1007/978-3-322-85133-8_1",
+    "title": "Politische Akteure in der Mediendemokratie",
+    "abstract": "Nach Erfahrungen des Medienreehtlers, ehemaligen Hamburger Justizsenators und jetztigen Verfassungsrichters Wolfgang Hoffmann-Riem befinden sich die Politiker \"in den Fesseln der Mediengesellschaft\"(Hoffmann-Riem 2000: 109). Eine sicherlich zun\u00e4chst einmal provokant wirkende Einsch\u00e4tzung, die aber durch die Berichterstattung der Medien \u00fcber das offizielle und mehr noch das private Rollenhandeln der politischen Akteure in j\u00fcngster Zeit vielf\u00e4ltige Belege fand, beispielsweise durch die Badeaff\u00e4re ",
+    "ground_truth_topic": "Media Framing",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 133
+  },
+  {
+    "doi": "10.1023/a:1011445128427",
+    "title": "Moral deliberation: The role of methodologies in clinical ethics",
+    "abstract": "",
+    "ground_truth_topic": "Moral Distress",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 1537
+  },
+  {
+    "doi": "10.4018/978-1-93177-745-2.ch016",
+    "title": "Explaining Information Systems Strategic Planning (ISSP) Behavior",
+    "abstract": "Contingency theory suggests that various environmental, organizational and managerial factors will influence an organization\u2019s approach to IT management. This chapter discusses the contingent nature of information systems strategic planning (ISSP) practices and presents the results of an empirical study of ISSP and the role of IS within 90 leading companies in South Africa. Results of a partial least squares analysis demonstrate the significant effect that perceptions of the future strategic rol",
+    "ground_truth_topic": "IT Alignment",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 1572
+  },
+  {
+    "doi": "10.1007/978-94-007-7287-8_11",
+    "title": "Sensor-Data-Driven Knowledge Creation Model: A Model and Empirical Test",
+    "abstract": "",
+    "ground_truth_topic": "Knowledge Management",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 3
+  },
+  {
+    "doi": "10.1016/b978-008043948-8/50083-7",
+    "title": "Numerical Analysis of Laterally Loaded Piles Under Conditions of Elasticity",
+    "abstract": "",
+    "ground_truth_topic": "Soil Mechanics",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 233
+  },
+  {
+    "doi": "10.1007/978-3-642-35261-4_8",
+    "title": "An 8/3 Lower Bound for Online Dynamic Bin Packing",
+    "abstract": "",
+    "ground_truth_topic": "Cutting and Packing",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 2176
+  },
+  {
+    "doi": "10.1007/978-94-6209-257-0_11",
+    "title": "Towards a New and Inclusive Model of Senior Secondary Education",
+    "abstract": "What skills experiences do undergraduates need in order to become independent learners, able both to make full use of learning opportunities offered at university and to develop the necessary resilience for coping with the demands that confront them? The high drop-out rate of university students early in their courses is cause for concern and forces questions about what teachers and schools should be doing to provide the most appropriate experience in the senior years of secondary school.",
+    "ground_truth_topic": "Higher Education",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 267
+  },
+  {
+    "doi": "10.1007/978-3-642-33481-8_5",
+    "title": "Leakage-Resilient Spatial Encryption",
+    "abstract": "",
+    "ground_truth_topic": "Cryptographic Schemes",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 237
+  },
+  {
+    "doi": "10.1016/b978-0-12-416702-5.50004-1",
+    "title": "Solution of Algebraic Equations",
+    "abstract": "",
+    "ground_truth_topic": "Numerical Optimization",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 963
+  },
+  {
+    "doi": "10.1007/978-3-642-57678-2_14",
+    "title": "Non-proportional hazards models in survival analysis",
+    "abstract": "Cox' proportional hazard model is usually the model of choice in survival analysis. It is shown that this model can be embedded in a GLMmodel by proper discretization of the time axis. That approach easily allows non-proportional hazard models, that are special cases of time-varying coefficients models. It is shown how the effective dimension of the general non-proportional hazards model can be controlled by either reduced rank regression methods of P-splines methodology.",
+    "ground_truth_topic": "Regularization",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 136
+  },
+  {
+    "doi": "10.1016/b978-0-12-381373-2.00059-4",
+    "title": "Microdialysis Sampling in the Brain: Analytical Approaches and Challenges",
+    "abstract": "",
+    "ground_truth_topic": "Microfluidics",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 412
+  },
+  {
+    "doi": "10.1023/a:1025092615584",
+    "title": "Complete Freund's Adjuvant Promotes the Increases of IFN-\u03b3 and Nitric Oxide in Suppressing Chronic Arthritis Induced by Pristane",
+    "abstract": "",
+    "ground_truth_topic": "Rheumatoid Arthritis",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 200
+  },
+  {
+    "doi": "10.1007/978-3-642-03474-9_272",
+    "title": "Simulation Study on Coverage of Tumor Motion Accordance with the Scanning Time in Slow-Scan CT",
+    "abstract": "",
+    "ground_truth_topic": "Radiotherapy Physics",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 358
+  },
+  {
+    "doi": "10.1007/978-3-642-15111-8_24",
+    "title": "Comparison of Fuzzy Edge Detectors Based on the Image Recognition Rate as Performance Index Calculated with Neural Networks",
+    "abstract": "",
+    "ground_truth_topic": "Type-2 Fuzzy Systems",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 820
+  },
+  {
+    "doi": "10.1007/978-90-481-9962-4_17",
+    "title": "Tortoises (Chelonii, Testudinidae)",
+    "abstract": "",
+    "ground_truth_topic": "Marine Turtle Conservation",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 1656
+  },
+  {
+    "doi": "10.1177/104973150001000501",
+    "title": "The Society for Social Work and Research: Successes and Future Challenges",
+    "abstract": "",
+    "ground_truth_topic": "Social Work",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 1028
+  },
+  {
+    "doi": "10.1016/j.jlap.2011.07.001",
+    "title": "On system rollback and totalized fields",
+    "abstract": "",
+    "ground_truth_topic": "Mobile Agents",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 2203
+  },
+  {
+    "doi": "10.17660/actahortic.2000.538.139",
+    "title": "A NEW SELECTED ROOTSTOCK FOR APRICOT VARIETIES IN BULGARIA, \u2018GREENGAGE - CD 4\u2019",
+    "abstract": "",
+    "ground_truth_topic": "Fruit Tree Physiology",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 1546
+  },
+  {
+    "doi": "10.17660/actahortic.2009.831.28",
+    "title": "AN ANALYSIS OF THE U.S. DEMAND FOR AVOCADO (PERSEA AMERICANA MILL.)",
+    "abstract": "",
+    "ground_truth_topic": "Fruit Ripening",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 473
+  },
+  {
+    "doi": "10.1007/978-3-540-74557-0_10",
+    "title": "Potential-Tailored Quantum Wells for High-Performance Optical Modulators/Switches",
+    "abstract": "",
+    "ground_truth_topic": "Quantum Dot Physics",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 22
+  },
+  {
+    "doi": "10.1007/s00105-011-2315-6",
+    "title": "Wachsende Pigmentl\u00e4sion der linken Wange",
+    "abstract": "",
+    "ground_truth_topic": "Melanoma",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 392
+  },
+  {
+    "doi": "10.1023/a:1006700218661",
+    "title": "The fracture properties of novel aluminum foam sandwich structures",
+    "abstract": "",
+    "ground_truth_topic": "Cellular Materials",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 707
+  },
+  {
+    "doi": "10.1007/978-3-642-56606-6_31",
+    "title": "Zur dimensionalen Aporie des G\u00fcterzinses: Kapitaltheorie, Intertemporale Preistheorie, Produktionspreistheorie",
+    "abstract": "",
+    "ground_truth_topic": "Monetary Equilibrium",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 2137
+  },
+  {
+    "doi": "10.1023/a:1007680802487",
+    "title": "Corrected Expression of the J-Integral Considering Higher Order Singular Terms in Eigenfunction Expansion in Interface Crack Problem",
+    "abstract": "",
+    "ground_truth_topic": "Fracture Mechanics",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 514
+  },
+  {
+    "doi": "10.1007/978-981-4451-79-6_6",
+    "title": "Point Spread Function and Modulation Transfer Function",
+    "abstract": "",
+    "ground_truth_topic": "Freeform Optics",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 1517
+  },
+  {
+    "doi": "10.1007/s10354-013-0175-7",
+    "title": "Herbal medicinal products in the paediatric population\u2014status quo and perspectives",
+    "abstract": "",
+    "ground_truth_topic": "Herbal Medicine Use",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 902
+  },
+  {
+    "doi": "10.1007/978-3-642-29906-3_5",
+    "title": "Project Governance \u2013 oder: Anmerkungen \u00fcber die Art und Weise, Medienprojekte zum Erfolg zu f\u00fchren",
+    "abstract": "",
+    "ground_truth_topic": "Business Management",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 910
+  },
+  {
+    "doi": "10.20965/jaciii.2007.p0633",
+    "title": "Context Dependent Automatic Textile Image Annotation Using Networked Knowledge",
+    "abstract": "This paper presents a new method of an automatic image annotation system that estimates keywords from an image. Typical automatic image annotation systems extract features from an image and recognize keywords. However this method has two problems. One is that it treats features statically. Features should change depending on what keywords are attached so keywords should not be treated equally. Another is that it does not consider the level of keywords. Visual keywords, such as color or texture, ",
+    "ground_truth_topic": "Shape Matching",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 824
+  },
+  {
+    "doi": "10.1016/b978-0-12-382165-2.00069-6",
+    "title": "mRNA and MicroRNA for Body Fluid Identification",
+    "abstract": "",
+    "ground_truth_topic": "Ancient DNA",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 751
+  },
+  {
+    "doi": "10.1116/1.3271141",
+    "title": "Engineering of threshold voltages in molecular beam epitaxy-grown Al2O3\u2215Ga2O3(Gd2O3)\u2215In0.2Ga0.8As",
+    "abstract": "The metal-oxide-semiconductor (MOS) capacitors of Al2O3\u2215Ga2O3(Gd2O3) on n- and p-type In0.2Ga0.8As with different metal gates exhibited excellent capacitance-voltage (C-V) characteristics and remarkable thermodynamic stability after rapid thermal annealing up to 850\u00b0C. The flat-band voltage (Vfb), flat-band voltage shift (\u0394Vfb), threshold voltage (Vth), and frequency dispersion of the MOS capacitors with different metal gates were extracted from the C-V curves. The Vth values of Al2O3\u2215Ga2O3(Gd2O",
+    "ground_truth_topic": "Atomic Layer Deposition",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 472
+  },
+  {
+    "doi": "10.1007/s00548-014-0350-0",
+    "title": "Die Zukunft des Kiosks",
+    "abstract": "",
+    "ground_truth_topic": "Work-Family Balance",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 722
+  },
+  {
+    "doi": "10.1007/978-3-8348-9418-2_5",
+    "title": "Setting up an Effective Information Security Awareness Programme",
+    "abstract": "The security group of a large insurance company in Belgium wanted to set-up and conduct a successful security awareness programme for all employees. Before designing the programme, the group performed field research (including discussing with security peers) into what constitutes a successful awareness programme. The security group also made an inventory of available awareness material, both internally (within the company and the group to which the company belongs) and externally. Based on the v",
+    "ground_truth_topic": "Information Security",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 734
+  },
+  {
+    "doi": "10.1007/s10686-014-9378-1",
+    "title": "The atmospheric monitoring system of the JEM-EUSO instrument",
+    "abstract": "",
+    "ground_truth_topic": "High-Energy Astrophysics",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 818
+  },
+  {
+    "doi": "10.1049/cp:20070358",
+    "title": "Communication failures in the speech-based control of smart home systems",
+    "abstract": "Despite their basic attractiveness as an interaction paradigm for controlling intelligent environments, the design of spoken dialog systems for this purpose raises some usability challenges that require careful attention. This paper examines closely the communication failures that can occur in the control of one particular type of intelligent environment: a smart home system that provides control for multiple domestic devices through a state-of-the-art mixed-initiative spoken-dialog interface. T",
+    "ground_truth_topic": "Dialogue Act Modeling",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 2031
+  },
+  {
+    "doi": "10.1007/978-3-642-31072-0_18",
+    "title": "Model-Driven Strategic Awareness: From a Unified Business Strategy Meta-Model (UBSMM) to Enterprise Architecture",
+    "abstract": "",
+    "ground_truth_topic": "IT Alignment",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 1572
+  },
+  {
+    "doi": "10.1177/082585970902500107",
+    "title": "What is A Good Death? Stories from Palliative Care",
+    "abstract": "The components of good and bad deaths have not been well elucidated in the literature. Furthermore, the value of using narratives in palliative care research has not been extensively explored. We invited people involved in palliative care (patients, caregivers, physicians, and nurses) to tell us their stories of good and bad deaths, and 15 responded. We asked them to tell us about the good and bad deaths that they had witnessed and to describe what a good death and a bad death would be like for ",
+    "ground_truth_topic": "Palliative Care",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 177
+  },
+  {
+    "doi": "10.1007/978-3-658-06235-4_12",
+    "title": "Programmierung im interaktiven multimedialen Erlebnisraum",
+    "abstract": "",
+    "ground_truth_topic": "Online Gaming",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 1197
+  },
+  {
+    "doi": "10.30972/bon.1811342",
+    "title": "Stemodia pratensis (Scrophulariaceae), sobre su presencia en Bolivia",
+    "abstract": "En este trabajo se confirma la presencia de Stemodia pratensis (Aubl.) C.P.Cowan(Scrophulariaceae) en Bolivia. Se incluyen la descripci\u00f3n, ilustraciones y una clave parasepararla de las restantes especies de Bolivia.",
+    "ground_truth_topic": "Angiosperm Phylogeny",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 385
+  },
+  {
+    "doi": "10.1016/b978-0-12-397025-1.00296-7",
+    "title": "Tissue Microstructure Imaging with Diffusion MRI",
+    "abstract": "",
+    "ground_truth_topic": "Diffusion MRI",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 1304
+  },
+  {
+    "doi": "10.1007/978-3-642-25005-7_6",
+    "title": "Do Different Populations of Rectal Cancer Exist?",
+    "abstract": "",
+    "ground_truth_topic": "Colorectal Cancer",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 335
+  },
+  {
+    "doi": "10.1016/j.pmr.2012.11.007",
+    "title": "Gait Analysis for Poststroke Rehabilitation",
+    "abstract": "",
+    "ground_truth_topic": "Gait Analysis",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 114
+  },
+  {
+    "doi": "10.1007/978-3-319-05708-8_11",
+    "title": "Maximum Power Control for Photovoltaic System Using Two Strategies",
+    "abstract": "",
+    "ground_truth_topic": "Photovoltaic Maximum Power Point Tracking",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 468
+  },
+  {
+    "doi": "10.1023/a:1025450708344",
+    "title": "Ethmoidal Sinus Adenocarcinoma with Orbital Invasion",
+    "abstract": "",
+    "ground_truth_topic": "Skull Base Surgery",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 1669
+  },
+  {
+    "doi": "10.1007/0-306-47821-8_12",
+    "title": "The Role of KISS1 in Melanoma Metastasis Suppression",
+    "abstract": "Among neoplasms, the severity and relevance of metastasis is perhaps most striking in the case of melanoma where surgical resection would conduce cure if not for the subsequent complications of distant metastatic foci. Compounding this notion are statistics revealing that the number of cases of malignant melanoma have doubled each of the last four decades (1) and autopsies of patients presenting with melanoma reveal lung invasion in approximately ninety percent of cases (2). Thus, a clear unders",
+    "ground_truth_topic": "Puberty Regulation",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 960
+  },
+  {
+    "doi": "10.1007/s00772-013-1180-2",
+    "title": "Biomechanische Charakterisierung von medizinischen Thromboseprophylaxestr\u00fcmpfen (MTPS)",
+    "abstract": "",
+    "ground_truth_topic": "Venous Thromboembolism",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 285
+  },
+  {
+    "doi": "10.1007/978-3-319-06041-5_6",
+    "title": "Analysis and Treatment of Organic Tissues",
+    "abstract": "",
+    "ground_truth_topic": "Metamaterials",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 245
+  },
+  {
+    "doi": "10.1007/978-3-211-99370-5_20",
+    "title": "Treatment of Symptomatic Lumbar Spinal Degenerative Pathologies by Means of Combined Conservative Biochemical Treatments",
+    "abstract": "",
+    "ground_truth_topic": "Lumbar Disc Degeneration",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 238
+  },
+  {
+    "doi": "10.1016/s0167-2991(07)80322-3",
+    "title": "The role of triethanolamine in the synthesis of mesostructured TiO2 by sol-gel method",
+    "abstract": "",
+    "ground_truth_topic": "Photocatalysis",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 24
+  },
+  {
+    "doi": "10.1007/978-1-4419-7390-0_5",
+    "title": "The Role of Assumptions in Predictions of Habitat Availability and Quality",
+    "abstract": "",
+    "ground_truth_topic": "Species Distribution Modeling",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 895
+  },
+  {
+    "doi": "10.2165/00115677-200210060-00003",
+    "title": "Lymphedema After Surgery for Cancer",
+    "abstract": "",
+    "ground_truth_topic": "Lymphangiogenesis",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 1469
+  },
+  {
+    "doi": "10.1007/978-3-319-00954-4_7",
+    "title": "Information Systems Uncertainty Design and\u00a0Implementation Combining: Rough, Fuzzy, and\u00a0Intuitionistic Approaches",
+    "abstract": "",
+    "ground_truth_topic": "Rough Sets",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 1063
+  },
+  {
+    "doi": "10.1007/978-3-319-02341-0_3",
+    "title": "Microstrip Antenna Design by Using Electromagnetic Bandgap Material",
+    "abstract": "",
+    "ground_truth_topic": "Metamaterials",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 245
+  },
+  {
+    "doi": "10.1097/smj.0b013e318213ea8d",
+    "title": "The Self and Asperger Syndrome",
+    "abstract": "",
+    "ground_truth_topic": "Autism Spectrum",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 106
+  },
+  {
+    "doi": "10.15394/jaaer.2006.1504",
+    "title": "The Application of Scenario Based Recurrent Training to Teach Single Pilot Resource Management (SRM) Under the FAA Industry Training Standards (FITS) Program",
+    "abstract": "Research indicates that improving a pilot's capability to exercise sound judgment and make informed and timely decisions may significantly improve flight safety. One approach to this problem is the introduction of scenario-based training (SBT) into flight training curriculums. At the request of the Cirrus Owner's and Pilots Association (COPA), the author developed and conducted four 3-hour scenario based seminars embodying these concepts and collected initial data from the 54 participants. A lon",
+    "ground_truth_topic": "Human-Automation Interaction",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 525
+  },
+  {
+    "doi": "10.1007/978-0-387-89498-0_6",
+    "title": "Waves in Strained/Polarized Media",
+    "abstract": "",
+    "ground_truth_topic": "Thermoelasticity",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 1565
+  },
+  {
+    "doi": "10.3130/aija.71.73_2",
+    "title": "A STUDY ON THE LIVING CONSERVATION OF TRADITIONAL HOUSE IN \"KOREAN TRADITIONAL FOLK VILLAGE\" : Discussion of long living way at Seongeup folk village in Cheju island",
+    "abstract": "The purpose of this study was to clarify the actual situation about extension or rebuilding of traditional house with changing times at Seongeup village in Cheju Island, Korea. Furthermore, we indicated the future direction of the traditional folk village. The residents are much devising in preservation system of cultural resources and in actual life. They carried out extension or rebuilding of their houses as below. First, traditional houses were become more usefully by modernization, and their",
+    "ground_truth_topic": "Satoyama Landscape",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 1955
+  },
+  {
+    "doi": "10.1007/978-3-642-38634-3_12",
+    "title": "Automatic Detection of Annotation Errors in Polish-Language Corpora",
+    "abstract": "",
+    "ground_truth_topic": "Machine Translation",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 181
+  },
+  {
+    "doi": "10.1023/a:1023415429402",
+    "title": "Synthesis and Structure of Dinitrosulfodienes of the Thiolene 1,1-Dioxide Series",
+    "abstract": "",
+    "ground_truth_topic": "Phosphonate Chemistry",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 1748
+  },
+  {
+    "doi": "10.2139/ssrn.1517460",
+    "title": "Testimony on Ohio H.B. 323 - Foreclosure and Public Nuisance Reform",
+    "abstract": "",
+    "ground_truth_topic": "Urban Shrinkage",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 2502
+  },
+  {
+    "doi": "10.1023/a:1017931404249",
+    "title": "Lead removal from contaminated water using mineral adsorbents",
+    "abstract": "",
+    "ground_truth_topic": "Adsorption",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 16
+  },
+  {
+    "doi": "10.1017/s0252921100016638",
+    "title": "Combined Modeling of Stellar Evolution and Pulsation",
+    "abstract": "Abstract The radial pulsations of variable stars at specified points along their evolution are accurately described with numerical hydrodynamics. The behavior of the pulsations along evolutionary tracks can then be modeled with amplitude equations, whose coefficients are obtained from fits to these hydrodynamical models. To simulate stellar evolution we make the stellar core\u2019s properties time-dependent and can investigate directly the effects on pulsation despite the very different time-scales (",
+    "ground_truth_topic": "Stellar Astrophysics",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 39
+  },
+  {
+    "doi": "10.1007/978-1-59259-343-9_13",
+    "title": "Current Strategies for Identifying Genes for Alcohol Sensitivity",
+    "abstract": "The familial occurrence of alcoholism has been known for many years. Many twin, adoption, and family studies now concur that this familial pattern is to a great extent conferred by genes transmitted to biological offspring (1,2). Approximately 50\u201360% of individual differences in risk for alcoholism is genetic, and this proportion is approximately equal in men and women (2). Thus, it is an easy task to predict that a close biological relative of an alcoholic is at higher risk for alcoholism. Howe",
+    "ground_truth_topic": "Neurobiology of Addiction",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 56
+  },
+  {
+    "doi": "10.1501/egifak_0000000070",
+    "title": "DRAMA \u00d6\u011eRETMEN\u0130N\u0130N YETERL\u0130L\u0130KLER\u0130 EFFICIENCIES OF DRAMA TEACHER",
+    "abstract": "In this study the efficiencies/skills which drama teachers should have were investigated. A drama teacher should have literature and drama history, theatre and arts education knowledge, manipulation of improvisation and, creating a positive atmosphere and, using materials skills and etc. Drama teachers, students, Ministry of Education and society\u2019s coordination and communication and knowledge of drama and desire are necessary for improving teacher\u2019s efficiencies",
+    "ground_truth_topic": "Creative Drama",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 4243
+  },
+  {
+    "doi": "10.1007/3-540-46637-1_12",
+    "title": "Geometrical Description of Vortices in Ginzburg-Landau Billiards",
+    "abstract": "",
+    "ground_truth_topic": "High-Temperature Superconductivity",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 37
+  },
+  {
+    "doi": "10.1007/978-3-642-39596-3_6",
+    "title": "Evidence for Black Holes",
+    "abstract": "",
+    "ground_truth_topic": "Black Hole Astrophysics",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 744
+  },
+  {
+    "doi": "10.1007/978-1-4614-3987-5_18",
+    "title": "Gender and Family Relations",
+    "abstract": "",
+    "ground_truth_topic": "Family Demographics",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 585
+  },
+  {
+    "doi": "10.1021/jf202503c",
+    "title": "Seasonal Variation of Provitamin D<sub>2</sub> and Vitamin D<sub>2</sub> in Perennial Ryegrass (<i>Lolium perenne</i> L.)",
+    "abstract": "Ergosterol (provitamin D(2)) is converted to vitamin D(2) in grass by exposure to UV light. Six varieties of perennial ryegrass (Lolium perenne L.) were harvested four times during the season, and the contents of vitamin D(2) and ergosterol were analyzed by a sensitive and selective liquid chromatography tandem mass spectrometry method. Weather factors were recorded, and a principal component analysis was performed to study which factors were important for the formation of vitamin D(2). The resu",
+    "ground_truth_topic": "Vitamin D",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 277
+  },
+  {
+    "doi": "10.1515/9783110909579",
+    "title": "Perspectives on Variation",
+    "abstract": "The significant advances witnessed over the last years in the broad field of linguistic variation testify to a growing convergence between sociolinguistic approaches and the somewhat older historical and comparative research traditions. Particularly within cognitive and functional linguistics, the evolution towards a maximally dynamic approach to language goes hand in hand with a renewed interest in corpus research and quantitative methods of analysis. Many researchers feel that only in this way",
+    "ground_truth_topic": "Sociolinguistic Variation",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 1640
+  },
+  {
+    "doi": "10.1007/978-3-319-01282-7_6",
+    "title": "Tax Effort in ECOWAS Countries",
+    "abstract": "",
+    "ground_truth_topic": "Tax Evasion",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 1257
+  },
+  {
+    "doi": "10.1007/978-2-287-99305-3_1",
+    "title": "L\u2019approche \u00e9conom\u00e9trique pour \u00e9valuer l\u2019int\u00e9r\u00eat financier des syst\u00e9mes d\u2019information hospitaliers",
+    "abstract": "",
+    "ground_truth_topic": "Health Information Technology",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 350
+  },
+  {
+    "doi": "10.1007/978-1-4419-5722-1_7",
+    "title": "Human Physical Rehabilitation",
+    "abstract": "",
+    "ground_truth_topic": "Refugee Mental Health",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 762
+  },
+  {
+    "doi": "10.5957/jsp.2007.23.1.23",
+    "title": "Ship Design Workflow Management by Share Fast",
+    "abstract": "From the viewpoint of technology transfer and education of ship design, it is essential to incorporate design process with knowledge. ShareFast is a methodology for associating knowledge with process and representing them as multimedia information based on semantic web technology. In this methodology, workflows of ship design process are implemented by a software system. It is concluded that the system worked very well to articulate the workflow and design knowledge, and the design process was e",
+    "ground_truth_topic": "Semantic Web",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 215
+  },
+  {
+    "doi": "10.1023/a:1023937704158",
+    "title": "Exact solutions toD-dimensional Schr\u00f6dinger equation with a pseudoharmonic oscillator",
+    "abstract": "",
+    "ground_truth_topic": "PT-Symmetry",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 1262
+  },
+  {
+    "doi": "10.1023/a:1013103419949",
+    "title": "A Simple High-Sensitivity Radiometer in the Infrared for Measurements of the Directional Total Emissivity of Opaque Materials at Near-Ambient Temperatures",
+    "abstract": "",
+    "ground_truth_topic": "Infrared Thermography",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 1856
+  },
+  {
+    "doi": "10.1385/1-59259-843-9:175",
+    "title": "Immune Regulation in the Brain",
+    "abstract": "This chapter provides a framework for thinking about recent work in brain tumor immunotherapy. The intent is to clarify current goals, aid interpretation of recent findings, and point to the next areas that need attention.",
+    "ground_truth_topic": "Dendritic Cells",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 580
+  },
+  {
+    "doi": "10.1007/978-3-540-92910-9_36",
+    "title": "Bacterial Computing and Molecular Communication",
+    "abstract": "",
+    "ground_truth_topic": "Nanonetworks",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 3052
+  },
+  {
+    "doi": "10.1007/978-94-017-9294-3_6",
+    "title": "Animals in Landscape Management and Nature Conservation",
+    "abstract": "",
+    "ground_truth_topic": "Wildlife Ecology",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 199
+  },
+  {
+    "doi": "10.1007/978-3-322-94931-8_7",
+    "title": "Integrationspolitik als Beauftragtenpolitik: Die Ausl\u00e4nderbeauftragte des Berliner Senats",
+    "abstract": "Die Berliner Integrationspolitik wird seit nunmehr fast zwanzig Jahren durch eine Stelle und eine Person gepr\u00e4gt, die Ausl\u00e4nderbeauftragte des Senats, Barbara John. An der Arbeit dieser Beh\u00f6rde sind somit Defizite und Fortschritte, Vers\u00e4umnisse und k\u00fcnftige Chancen bundesweit aufzeigbar. Die Einrichtung dieser Stelle (wie auch die beispielgebende Einsetzung eines Bundesausl\u00e4nderbeauftragten 1979) entsprang weniger einer politisch-programmatischen Entscheidung als einer ad-hoc-Reaktion auf eine K",
+    "ground_truth_topic": "Social Practices",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 259
+  },
+  {
+    "doi": "10.1007/978-3-540-76862-3_11",
+    "title": "Methodology for Development and Objective Comparison of Architectures for Networked RFID",
+    "abstract": "",
+    "ground_truth_topic": "Open Source Innovation",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 1675
+  },
+  {
+    "doi": "10.1016/b978-0-08-097086-8.12210-x",
+    "title": "Militaries and Militarization, Anthropology of",
+    "abstract": "",
+    "ground_truth_topic": "Gender and War",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 1863
+  },
+  {
+    "doi": "10.1007/978-3-642-28839-5_3",
+    "title": "Parallel e-CCC-Biclustering: Mining Approximate Temporal Patterns in Gene Expression Time Series Using Parallel Biclustering",
+    "abstract": "",
+    "ground_truth_topic": "Microarray Analysis",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 885
+  },
+  {
+    "doi": "10.1007/978-3-642-27323-0_17",
+    "title": "Research on TCP Optimization Key Technology of Web Application Acceleration",
+    "abstract": "",
+    "ground_truth_topic": "Congestion Control",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 138
+  },
+  {
+    "doi": "10.1021/bk-2007-0948.ch005",
+    "title": "Thiamethoxam: A Neonicotinoid Precursor Converted to Clothianidin in Insects and Plants",
+    "abstract": "Neonicotinoid insecticides act agonistically on insect nicotinic acetylcholine receptors (nAChRs). Like imidacloprid (IMI), all neonicotinoids bind with high affinity (I50-values ~ 1 nM) to [3H]IMI binding sites on insect nAChRs. One notable omission is thiamethoxam (THIAM), showing binding affinities up to 10,000-fold less potent than other neonicotinoids, using housefly head membrane preparations. Clothianidin (CLOTHI) exhibits high activity as an agonist on isolated neurons at concentrations ",
+    "ground_truth_topic": "Honey Bee Health",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 1641
+  },
+  {
+    "doi": "10.1007/978-3-642-03474-9_102",
+    "title": "A New Electron IMRT Technique for Breast Cancer: Comparison to Photon IMRT and Conventional Irradiation Based on Static and Dynamic Dose Measurements",
+    "abstract": "",
+    "ground_truth_topic": "Radiotherapy Physics",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 358
+  },
+  {
+    "doi": "10.1007/978-3-319-02753-1_26",
+    "title": "Breast Cancer Identification Based on Thermal Analysis and a Clustering and Selection Classification Ensemble",
+    "abstract": "",
+    "ground_truth_topic": "Medical Thermography",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 2994
+  },
+  {
+    "doi": "10.5507/ag.2013.015",
+    "title": "Heart rate and time-motion analyses in top junior players during basketball matches",
+    "abstract": "BACKGROUND: Basketball performance can be classified as an intermittent physical activity due to the changing situational game conditions and the number of intervening variables.It is necessary to have detailed knowledge about the performance of basketball players during a match as a background for more specific planning of the training process.OBJECTIVE: The aim of this study was to analyse the indicators of internal and external load of basketball player's performance during a match of U18 top",
+    "ground_truth_topic": "Sports Science",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 157
+  },
+  {
+    "doi": "10.1177/000313480206800517",
+    "title": "Do Facial Fractures Protect the Brain or are they a Marker for Severe Head Injury?",
+    "abstract": "Facial fractures (FF) have been suggested to protect the brain from severe injury. However, others have stated that facial fractures are a marker for increased risk of brain injury. The aim of this study is to evaluate the association between facial fractures, brain injury, and functional outcome. A retrospective review of our prospective trauma database was performed for blunt trauma patients during a 7-year period (January 1993 through December 1999) at the University of Louisville Hospital. W",
+    "ground_truth_topic": "Maxillofacial Trauma",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 1562
+  },
+  {
+    "doi": "10.1007/1-4020-2378-2_12",
+    "title": "Problem of Risk Modeling: Influence of Uranium Storage on Environment",
+    "abstract": "Radiological safety of Kyrgyz Republic is caused by natural factors and by activity of the enterprises on extraction and processing of the raw material. It has specific climate and conditions with the highest degree of natural hazards. Increase of level of underground waters, high waters, landslides, high seismicity have resulted the storage destruction, that present threat to the ecology of Central Asia. The resolution of radiological problems of Kyrgyzstan may only be resolved with the complex",
+    "ground_truth_topic": "Radiation and Health",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 946
+  },
+  {
+    "doi": "10.1007/978-3-642-02167-1_9",
+    "title": "Molecular Mechanism of Water and Gas Transport Across Biological Membranes and Consequences for Plant Physiology",
+    "abstract": "",
+    "ground_truth_topic": "Aquaporins",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 724
+  },
+  {
+    "doi": "10.1007/978-1-4614-2413-0_23",
+    "title": "Iterative Modal Identification Algorithm; Implementation and Evaluation",
+    "abstract": "Applying Wireless sensor networks (WSNs) in structural health monitoring (SHM) systems has received significant interest from research communities in recent years. While incorporating wireless technology in monitoring systems has provided considerable improvements, new approaches are still needed to address existing challenges in their application. A major challenge in application of WSNs in SHM is the limited power resources of wireless sensors and the latency in the data processing due to the ",
+    "ground_truth_topic": "Structural Health Monitoring",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 534
+  },
+  {
+    "doi": "10.1023/a:1010511201206",
+    "title": "Computer-Assisted Verification of Agreement Between IR Spectrum and Hypothetical Chemical Structure",
+    "abstract": "",
+    "ground_truth_topic": "Drug Discovery",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 211
+  },
+  {
+    "doi": "10.1515/ldr-2014-0022",
+    "title": "Solar and Wind Power as Natural Resource: Legal Theory and Practice of Use of Renewable Energy Sources (View from Russia)",
+    "abstract": "Use of solar and wind power as a variety of renewable energy sources is one of the types of environmental entrepreneurship. Currently, this area of power engineering is booming in the states of the European Union, China and the United States. The authors of this article explore the reasons for insufficient development of alternative power engineering in Russia. Based on the legal traditions of the post-Soviet states, they suggest consideration of solar and wind power as natural resource that is ",
+    "ground_truth_topic": "Education and Society",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 2928
+  },
+  {
+    "doi": "10.1007/1-4020-3754-6_5",
+    "title": "Representation, Expertise, and the German Parliament: A Comparison of Three Advisory Institutions",
+    "abstract": "",
+    "ground_truth_topic": "Sustainability Transitions",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 119
+  },
+  {
+    "doi": "10.1007/978-94-017-8739-0_1",
+    "title": "Presence in, and Release of, Nanomaterials from Consumer Products",
+    "abstract": "",
+    "ground_truth_topic": "Nanotoxicology",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 79
+  },
+  {
+    "doi": "10.1007/978-90-481-9707-1_115",
+    "title": "Power Managements of a Hybrid Electric Propulsion System Powered by Solar Cells, Fuel Cells, and Batteries for UAVs",
+    "abstract": "",
+    "ground_truth_topic": "Aviation and Climate",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 1524
+  },
+  {
+    "doi": "10.7287/peerj.preprints.717v1",
+    "title": "The Directory of Open Access Journals covers more biomedical open access journals than other databases",
+    "abstract": "Background: Open access (OA) journals disseminate research papers free of charge to the reader. Traditionally, biomedical researchers use databases like MEDLINE and EMBASE to discover new advances. However, biomedical OA journals might not fulfil such databases\u2019 criteria, hindering dissemination. The Directory of Open Access Journals (DOAJ) is a database searchable at article level, focusing exclusively on OA journals. The aim of this study was to investigate DOAJ\u2019s coverage of biomedical OA jou",
+    "ground_truth_topic": "Bibliometric Analysis",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 102
+  },
+  {
+    "doi": "10.22201/iifs.18704905e.2011.852",
+    "title": "\u00bfPor qu\u00e9 una palabra significa lo que significa? Comentarios a Escepticismo del significado y teor\u00edas de conceptos de S\u00edlvio Mota Pinto",
+    "abstract": "En esta nota critico la teor\u00eda de la interpretaci\u00f3n de Mota Pinto (2009), arguyendo que predice significados donde intuitivamente no deber\u00eda haberlos. De paso, critico su presentaci\u00f3n de la perspectiva comunitarista del significado, distinguiendo entre dos tipos diferentes de hechos sem\u00e1nticos: el que una palabra signifique lo que significa en vez de significar otra cosa, y el que una expresi\u00f3n signifique lo que significa en vez de no significar nada.",
+    "ground_truth_topic": "Consciousness Studies",
+    "ground_truth_domain": "Social sciences and humanities",
+    "micro_cluster_id": 258
+  },
+  {
+    "doi": "10.1016/b978-2-294-71119-0.00010-8",
+    "title": "Vaginisme",
+    "abstract": "",
+    "ground_truth_topic": "Sexual Dysfunction",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 459
+  },
+  {
+    "doi": "10.1007/978-3-642-10226-4_21",
+    "title": "Automated Object Identification and Position Estimation for Airport Lighting Quality Assessment",
+    "abstract": "",
+    "ground_truth_topic": "Nighttime Light Data",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 1963
+  },
+  {
+    "doi": "10.1007/978-3-662-44736-9_33",
+    "title": "A Fuzzy Multi Criteria Approach for Evaluating Sustainability Performance of Third \u2013 Party Reverse Logistics Providers",
+    "abstract": "",
+    "ground_truth_topic": "Multi-Criteria Decision Making",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 50
+  },
+  {
+    "doi": "10.1016/j.ajodo.2009.03.033",
+    "title": "Editor's Summary and Q&amp;A",
+    "abstract": "",
+    "ground_truth_topic": "Tooth Development",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 1919
+  },
+  {
+    "doi": "10.1007/978-3-319-10476-8_4",
+    "title": "Digit II, III \u2013 Wrist, Elbow; Digit II, III \u2013 Wrist",
+    "abstract": "",
+    "ground_truth_topic": "Carpal Tunnel Syndrome",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 954
+  },
+  {
+    "doi": "10.1007/978-3-642-35728-2_1",
+    "title": "Quality Assessment on User Generated Image for Mobile Search Application",
+    "abstract": "",
+    "ground_truth_topic": "Image Feature Retrieval",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 627
+  },
+  {
+    "doi": "10.1007/978-1-84996-235-3_4",
+    "title": "Geometric Correspondence-Based Approaches",
+    "abstract": "",
+    "ground_truth_topic": "Image Segmentation",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 52
+  },
+  {
+    "doi": "10.1007/978-3-319-10202-3_15",
+    "title": "Serious Erosion of the Southern Sendai Coast Due to the 2011 Tohoku Earthquake Tsunami and Its Recovery Process",
+    "abstract": "",
+    "ground_truth_topic": "Seismicity",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 110
+  },
+  {
+    "doi": "10.1007/s00132-002-0427-5",
+    "title": "Einlagen- und Schuhversorgung bei Fu\ufffddeformit\ufffdten",
+    "abstract": "",
+    "ground_truth_topic": "Tendon Adaptation",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 1068
+  },
+  {
+    "doi": "10.1007/978-1-4020-8270-2_6",
+    "title": "Solvent Effects on Radiative and Non-Radiative Excited State Decays",
+    "abstract": "",
+    "ground_truth_topic": "Density Functional Theory",
+    "ground_truth_domain": "Physical sciences and engineering",
+    "micro_cluster_id": 2
+  },
+  {
+    "doi": "10.2741/gallican",
+    "title": "Composition, regulation, and function of the cytoskeleton in mammalian eggs and embryos",
+    "abstract": "The cytoskeleton of the mammalian egg and early embryo is highly unique when compared to the cytoskeleton of their somatic cell brethren. Although all three cytoskeletal systems, actin filaments, microtubules, and intermediate filaments, are present as early as the unfertilized egg; each system has adapted features that allow the egg and early embryo to meet the strict demands of the developmental process. The major demands placed upon eggs and embryos are developmental transitions (i.e., fertil",
+    "ground_truth_topic": "Fertility Preservation",
+    "ground_truth_domain": "Biomedical and health sciences",
+    "micro_cluster_id": 364
+  },
+  {
+    "doi": "10.1007/978-1-4612-1150-1_4",
+    "title": "Communication and Acoustic Behavior of Dolphins and Whales",
+    "abstract": "",
+    "ground_truth_topic": "Marine Mammal Ecology",
+    "ground_truth_domain": "Life and earth sciences",
+    "micro_cluster_id": 659
+  },
+  {
+    "doi": "10.1201/9781439864135-48",
+    "title": "Notes on Visibility Roadmaps and Path Planning",
+    "abstract": "This paper overviews the probabilistic roadmap ap\u00ad proaches to path planning whose surprising practical performances attract today an increasing interest. We first comment on the configuration space topology in\u00ad duced by the methods used to steer a mechanical sys\u00ad tem. Topology induces the combinatorial complexity of the roadmaps tending to capture both coverage and con\u00ad nectivity of the collision-free space. Then we introduce the notion of optimal coverage and we provide a paper probabilistic s",
+    "ground_truth_topic": "Motion Planning",
+    "ground_truth_domain": "Mathematics and computer science",
+    "micro_cluster_id": 586
+  }
+]

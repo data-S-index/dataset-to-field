@@ -128,13 +128,28 @@ Records should have at minimum a `title` field. Additional fields improve classi
 
 | Metric | Value |
 |--------|-------|
-| Throughput | ~3,000 records/sec |
+| Throughput | ~4,400 records/sec |
 | Mean confidence score | 0.62 |
 | Records above 0.50 threshold | 94.6% |
 | Classification rate | 99.8% |
-| 50M records processing time | ~4.6 hours |
+| 50M records processing time | ~3.2 hours |
 
 Tested on 32-core AMD Threadripper with real DataCite metadata. Performance scales linearly with CPU cores.
+
+## Validation
+
+Validated against [CWTS/OpenAlex ground truth](https://zenodo.org/records/10560276) (192 records with title + abstract):
+
+| CWTS Domain | Accuracy |
+|-------------|----------|
+| Physical sciences & engineering | 78.8% |
+| Life and earth sciences | 78.6% |
+| Social sciences & humanities | 77.5% |
+| Mathematics & computer science | 73.2% |
+| Biomedical & health sciences | 56.0% |
+| **Overall** | **71.4%** |
+
+Note: Accuracy reflects mapping between CWTS 5-domain taxonomy and OpenAlex's more granular domain structure.
 
 ## Method
 

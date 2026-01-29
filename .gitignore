@@ -57,3 +57,10 @@ Thumbs.db
 
 # Don't ignore package models (needed for pip install)
 !src/openalex_classifier/models/
+# Large validation files (download from Zenodo)
+validation/*.zip
+validation/clustering.tsv
+validation/micro_cluster.tsv
+validation/micro_cluster_*.tsv
+validation/meso_cluster*.tsv
+validation/macro_cluster*.tsv
