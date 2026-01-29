@@ -65,7 +65,12 @@ openalex-classify = "openalex_classifier.cli:main"
 where = ["src"]
 
 [tool.setuptools.package-data]
-openalex_classifier = ["py.typed"]
+openalex_classifier = [
+    "py.typed",
+    "models/*.csv",
+    "models/*.npy",
+    "models/bge-small-distilled/*",
+]
 
 [tool.black]
 line-length = 100

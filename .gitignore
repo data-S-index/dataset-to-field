@@ -54,3 +54,6 @@ Thumbs.db
 # Logs
 *.log
 
+
+# Don't ignore package models (needed for pip install)
+!src/openalex_classifier/models/

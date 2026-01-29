@@ -12,9 +12,10 @@ def _find_models_dir() -> Path:
     
     Search order:
     1. OPENALEX_MODELS_DIR environment variable
-    2. ./models (current working directory)
-    3. Package installation directory
-    4. ~/.openalex_classifier/models (user home)
+    2. Package data directory (inside installed package)
+    3. ./models (current working directory)
+    4. Repository models directory (for development)
+    5. ~/.openalex_classifier/models (user home fallback)
     """
     # 1. Environment variable
     if env_dir := os.environ.get("OPENALEX_MODELS_DIR"):
@@ -22,17 +23,22 @@ def _find_models_dir() -> Path:
         if path.exists():
             return path
     
-    # 2. Current working directory
+    # 2. Package data directory (for pip installs)
+    pkg_data_models = Path(__file__).parent / "models"
+    if (pkg_data_models / "topics.csv").exists():
+        return pkg_data_models
+    
+    # 3. Current working directory
     cwd_models = Path.cwd() / "models"
     if (cwd_models / "topics.csv").exists():
         return cwd_models
     
-    # 3. Package directory (for development installs)
-    pkg_models = Path(__file__).parent.parent.parent / "models"
-    if (pkg_models / "topics.csv").exists():
-        return pkg_models
+    # 4. Repository models directory (for development installs)
+    repo_models = Path(__file__).parent.parent.parent / "models"
+    if (repo_models / "topics.csv").exists():
+        return repo_models
     
-    # 4. User home directory (for pip installs)
+    # 5. User home directory (fallback)
     home_models = Path.home() / ".openalex_classifier" / "models"
     home_models.mkdir(parents=True, exist_ok=True)
     return home_models
