@@ -1,16 +1,21 @@
 {
-  "total_records": 483,
-  "records_with_predictions": 482,
-  "accuracy": {
-    "domain": 78.0,
-    "field": 52.9,
-    "subfield": 35.3,
-    "topic": 19.5
+  "note": "Validation against OpenAlex ground truth showed limited improvement due to data quality issues in OpenAlex abstracts.",
+  "datacite_description_availability": {
+    "overall": "71.2%",
+    "2018_onwards": "86-90%",
+    "average_length_chars": 641
   },
-  "matches": {
-    "domain": 376,
-    "field": 255,
-    "subfield": 170,
-    "topic": 94
-  }
+  "accuracy_with_descriptions": {
+    "domain": 78.2,
+    "field": 55.0,
+    "subfield": 37.4,
+    "topic": 22.4
+  },
+  "improvement_vs_title_only": {
+    "domain": "+0.2%",
+    "field": "+2.1%",
+    "subfield": "+2.1%",
+    "topic": "+2.9%"
+  },
+  "interpretation": "Domain and field classification remain reliable. Including descriptions improves quality for the 71% of records that have them, with more significant impact on newer records (86-90% have descriptions)."
 }

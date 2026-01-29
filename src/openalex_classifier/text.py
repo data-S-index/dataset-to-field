@@ -31,7 +31,7 @@ def prepare_record_text(record: Dict[str, Any]) -> str:
     """
     Extract and prepare text from a dataset record for classification.
     
-    Combines title and subjects/keywords into a single string.
+    Combines title, description/abstract, and subjects/keywords.
     
     Args:
         record: Dataset metadata dictionary
@@ -50,6 +50,30 @@ def prepare_record_text(record: Dict[str, Any]) -> str:
                 title = title.get('title', '')
         parts.append(sanitize_text(title))
     
+    # Description/Abstract - KEY for accurate classification
+    description = (
+        record.get('description') or 
+        record.get('abstract') or 
+        record.get('abstract_inverted_index') or  # OpenAlex format
+        ''
+    )
+    if description:
+        # Handle inverted index format from OpenAlex
+        if isinstance(description, dict):
+            # Reconstruct text from inverted index
+            try:
+                words = sorted(description.items(), key=lambda x: min(x[1]) if x[1] else 0)
+                description = ' '.join(w[0] for w in words)
+            except:
+                description = ''
+        elif isinstance(description, list):
+            description = ' '.join(str(d) for d in description)
+        
+        # Truncate to ~500 chars for balance of info vs speed
+        desc_text = sanitize_text(str(description))[:500]
+        if desc_text:
+            parts.append(desc_text)
+    
     # Subjects/keywords
     subjects = record.get('subjects') or record.get('keywords') or []
     if subjects:
@@ -58,9 +82,14 @@ def prepare_record_text(record: Dict[str, Any]) -> str:
         
         # Extract subject text (handle various formats)
         subj_texts = []
-        for s in subjects[:10]:  # Limit to 10 subjects
+        for s in subjects[:15]:  # Increased to 15
             if isinstance(s, dict):
-                subj_text = s.get('subject') or s.get('value') or s.get('name', '')
+                subj_text = (
+                    s.get('subject') or 
+                    s.get('value') or 
+                    s.get('name') or 
+                    s.get('display_name', '')
+                )
             else:
                 subj_text = str(s)
             if subj_text:
