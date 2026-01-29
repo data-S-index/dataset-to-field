@@ -119,18 +119,35 @@ class TopicClassifier:
         logger.info(f"Distilled model saved to {model_path}")
     
     def _load_topics(self):
-        """Load topic taxonomy."""
+        """Load topic taxonomy, downloading if necessary."""
         topics_path = self.config.topics_path
         
         if not topics_path.exists():
-            raise FileNotFoundError(
-                f"Topics file not found: {topics_path}\n"
-                "Please download topics.csv to the models directory."
-            )
+            logger.info("Topics file not found, downloading...")
+            self._download_topics(topics_path)
         
         logger.info(f"Loading topics from {topics_path}")
         self.topics_df = pd.read_csv(topics_path)
         logger.info(f"Loaded {len(self.topics_df)} topics")
+    
+    def _download_topics(self, dest_path: Path):
+        """Download topics.csv from GitHub repository."""
+        import urllib.request
+        
+        url = "https://raw.githubusercontent.com/jimnoneill/openalex-topic-classifier/main/models/topics.csv"
+        
+        dest_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        logger.info(f"Downloading topics from {url}")
+        try:
+            urllib.request.urlretrieve(url, dest_path)
+            logger.info(f"Downloaded to {dest_path}")
+        except Exception as e:
+            raise RuntimeError(
+                f"Failed to download topics.csv: {e}\n"
+                "Please download manually from:\n"
+                "https://github.com/jimnoneill/openalex-topic-classifier/blob/main/models/topics.csv"
+            )
     
     def _build_index(self):
         """Build FAISS index for topic search."""

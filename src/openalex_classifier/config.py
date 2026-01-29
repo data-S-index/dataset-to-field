@@ -1,8 +1,41 @@
 """Configuration for OpenAlex Topic Classifier."""
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional
+import os
+
+
+def _find_models_dir() -> Path:
+    """
+    Find models directory by checking multiple locations.
+    
+    Search order:
+    1. OPENALEX_MODELS_DIR environment variable
+    2. ./models (current working directory)
+    3. Package installation directory
+    4. ~/.openalex_classifier/models (user home)
+    """
+    # 1. Environment variable
+    if env_dir := os.environ.get("OPENALEX_MODELS_DIR"):
+        path = Path(env_dir)
+        if path.exists():
+            return path
+    
+    # 2. Current working directory
+    cwd_models = Path.cwd() / "models"
+    if (cwd_models / "topics.csv").exists():
+        return cwd_models
+    
+    # 3. Package directory (for development installs)
+    pkg_models = Path(__file__).parent.parent.parent / "models"
+    if (pkg_models / "topics.csv").exists():
+        return pkg_models
+    
+    # 4. User home directory (for pip installs)
+    home_models = Path.home() / ".openalex_classifier" / "models"
+    home_models.mkdir(parents=True, exist_ok=True)
+    return home_models
 
 
 @dataclass
@@ -22,9 +55,9 @@ class Config:
     topics_path: Optional[Path] = None
     
     def __post_init__(self):
-        """Set default paths relative to package location."""
+        """Set default paths, searching multiple locations."""
         if self.models_dir is None:
-            self.models_dir = Path(__file__).parent.parent.parent / "models"
+            self.models_dir = _find_models_dir()
         if self.topics_path is None:
             self.topics_path = self.models_dir / "topics.csv"
         
