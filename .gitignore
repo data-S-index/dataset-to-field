@@ -40,9 +40,13 @@ htmlcov/
 .tox/
 .nox/
 
-# Models (large files - download separately)
-# models/bge-small-distilled/
-# models/topic_embeddings.npy
+# Models (large files - download from HuggingFace)
+*.safetensors
+**/models/*/model.safetensors
+**/models/*/tokenizer.json
+**/models/topic_embeddings.npy
+validation/finetuned_models/
+validation/llm_ground_truth/
 
 # Jupyter
 .ipynb_checkpoints/
