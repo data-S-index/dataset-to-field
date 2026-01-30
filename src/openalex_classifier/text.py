@@ -103,7 +103,7 @@ def prepare_record_text(record: Dict[str, Any]) -> str:
 
 def get_dataset_id(record: Dict[str, Any]) -> str:
     """Extract dataset identifier from record."""
-    # Try common ID fields
+    # Try simple ID fields first
     for field in ['id', 'doi', 'identifier', 'dataset_id']:
         if field in record and record[field]:
             val = record[field]
@@ -112,6 +112,19 @@ def get_dataset_id(record: Dict[str, Any]) -> str:
             if isinstance(val, dict):
                 val = val.get('identifier') or val.get('value', '')
             return str(val)
+    
+    # Handle DataCite identifiers array format
+    identifiers = record.get('identifiers', [])
+    if identifiers:
+        for ident in identifiers:
+            if isinstance(ident, dict):
+                # Prefer DOI
+                if ident.get('identifier_type', '').lower() == 'doi':
+                    return str(ident.get('identifier', ''))
+        # Fall back to first identifier
+        if isinstance(identifiers[0], dict):
+            return str(identifiers[0].get('identifier', 'unknown'))
+        return str(identifiers[0])
     
     return 'unknown'
 
