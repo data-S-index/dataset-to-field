@@ -131,7 +131,7 @@ Records should have at minimum a `title` field. Additional fields improve classi
 | Metric | Value |
 |--------|-------|
 | Throughput | **48,304 records/sec** (32 workers) |
-| Total Records Classified | 46.2 million |
+| Total Records Classified | 48.7 million |
 | Processing Time | ~15 minutes |
 | Compressed Output | 394 MB |
 
