@@ -12,7 +12,7 @@
 This classifier assigns [OpenAlex topics](https://docs.openalex.org/api-entities/topics) to scientific dataset metadata using a fine-tuned embedding model. It maps datasets to the 4,516 topics in the OpenAlex taxonomy, along with their hierarchical subfield, field, and domain classifications.
 
 **Key features:**
-- 🚀 **~3,000 records/second** on CPU (no GPU required)
+- 🚀 **~48,000 records/second** on CPU with parallel processing (no GPU required)
 - 📊 **4,516 OpenAlex topics** with full hierarchy
 - 🎯 **92.6% domain accuracy, 62.6% topic accuracy** (fine-tuned model)
 - 💻 **Single dependency install** — works on any machine
@@ -21,10 +21,10 @@ This classifier assigns [OpenAlex topics](https://docs.openalex.org/api-entities
 
 ```bash
 # Install directly from GitHub
-pip install git+https://github.com/jamesoneill12/openalex-topic-classifier.git
+pip install git+https://github.com/jimnoneill/openalex-topic-classifier.git
 
 # Or clone and install locally
-git clone https://github.com/jamesoneill12/openalex-topic-classifier.git
+git clone https://github.com/jimnoneill/openalex-topic-classifier.git
 cd openalex-topic-classifier
 pip install -e .
 ```
@@ -54,10 +54,10 @@ print(result)
 
 ```bash
 # Option 1: Install directly from GitHub (recommended)
-pip install git+https://github.com/jamesoneill12/openalex-topic-classifier.git
+pip install git+https://github.com/jimnoneill/openalex-topic-classifier.git
 
 # Option 2: Clone and install locally
-git clone https://github.com/jamesoneill12/openalex-topic-classifier.git
+git clone https://github.com/jimnoneill/openalex-topic-classifier.git
 cd openalex-topic-classifier
 pip install -e .
 
@@ -130,13 +130,17 @@ Records should have at minimum a `title` field. Additional fields improve classi
 
 | Metric | Value |
 |--------|-------|
-| Throughput | ~4,400 records/sec |
-| Mean confidence score | 0.62 |
-| Records above 0.50 threshold | 94.6% |
-| Classification rate | 99.8% |
-| 50M records processing time | ~3.2 hours |
+| Throughput | **48,304 records/sec** (32 workers) |
+| Total Records Classified | 46.2 million |
+| Processing Time | ~15 minutes |
+| Compressed Output | 394 MB |
 
 Tested on 32-core AMD Threadripper with real DataCite metadata. Performance scales linearly with CPU cores.
+
+### Pre-classified Output
+
+The complete classified DataCite dataset (46.2M records) is available for download:
+- [**classified_output.zip**](https://drive.google.com/file/d/1QJ3AYBzKOnCRTMCd0V-8HLkjGRko99Q5/view?usp=sharing) (394 MB)
 
 ## Validation Results
 
@@ -200,7 +204,7 @@ If you use this classifier, please cite:
   author = {O'Neill, James},
   title = {OpenAlex Topic Classifier},
   year = {2026},
-  url = {https://github.com/jamesoneill12/openalex-topic-classifier}
+  url = {https://github.com/jimnoneill/openalex-topic-classifier}
 }
 ```
 
