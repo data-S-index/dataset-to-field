@@ -50,7 +50,7 @@ class Config:
     
     # Model settings - Fine-tuned OpenAlex topic classifier
     model_name: str = "jimnoneill/openalex-topic-classifier-finetuned"  # Fine-tuned on OpenAlex taxonomy
-    pca_dims: int = 256  # Dimensions for distilled model
+    pca_dims: int = 512  # Dimensions for fine-tuned model (potion-base-32m output)
     
     # Classification settings
     min_score: float = 0.40  # Minimum confidence threshold
