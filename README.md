@@ -4,7 +4,7 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![HuggingFace Model](https://img.shields.io/badge/🤗-Model-yellow)](https://huggingface.co/jimnoneill/openalex-topic-classifier-finetuned)
+[![HuggingFace Model](https://img.shields.io/badge/🤗-Model-yellow)](https://huggingface.co/jimnoneill/openalex-topic-classifier)
 [![HuggingFace Dataset](https://img.shields.io/badge/🤗-Dataset-blue)](https://huggingface.co/datasets/jimnoneill/openalex-topic-classification-10k)
 
 ## Overview
@@ -167,7 +167,7 @@ The fine-tuned model achieves +15% improvement on domain accuracy and +46% impro
 The model was fine-tuned on 10,500 scientific records with ground truth topic classifications aligned with the OpenAlex taxonomy.
 
 - **Dataset**: [jimnoneill/openalex-topic-classification-10k](https://huggingface.co/datasets/jimnoneill/openalex-topic-classification-10k)
-- **Model**: [jimnoneill/openalex-topic-classifier-finetuned](https://huggingface.co/jimnoneill/openalex-topic-classifier-finetuned)
+- **Model**: [jimnoneill/openalex-topic-classifier](https://huggingface.co/jimnoneill/openalex-topic-classifier)
 
 ## Method
 
