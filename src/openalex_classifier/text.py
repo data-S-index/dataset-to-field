@@ -69,8 +69,8 @@ def prepare_record_text(record: Dict[str, Any]) -> str:
         elif isinstance(description, list):
             description = ' '.join(str(d) for d in description)
         
-        # Truncate to ~500 chars for balance of info vs speed
-        desc_text = sanitize_text(str(description))[:500]
+        # Truncate to 1000 chars for better context
+        desc_text = sanitize_text(str(description))[:1000]
         if desc_text:
             parts.append(desc_text)
     
@@ -82,7 +82,7 @@ def prepare_record_text(record: Dict[str, Any]) -> str:
         
         # Extract subject text (handle various formats)
         subj_texts = []
-        for s in subjects[:15]:  # Increased to 15
+        for s in subjects[:25]:  # Increased to 25 for more context
             if isinstance(s, dict):
                 subj_text = (
                     s.get('subject') or 

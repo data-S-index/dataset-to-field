@@ -89,7 +89,7 @@ class TopicClassifier:
             raise
     
     def _load_model(self):
-        """Load or create distilled embedding model."""
+        """Load distilled embedding model from HuggingFace or local cache."""
         from model2vec import StaticModel
         
         model_path = self.config.distilled_model_path
@@ -98,25 +98,14 @@ class TopicClassifier:
             logger.info(f"Loading distilled model from {model_path}")
             self.model = StaticModel.from_pretrained(str(model_path))
         else:
-            logger.info("Creating distilled model (one-time operation)...")
-            self._create_distilled_model()
-    
-    def _create_distilled_model(self):
-        """Create distilled model from BGE-small."""
-        from model2vec import StaticModel
-        from model2vec.distill import distill
-        
-        logger.info(f"Distilling {self.config.model_name}...")
-        self.model = distill(
-            model_name=self.config.model_name,
-            pca_dims=self.config.pca_dims,
-        )
-        
-        # Save for future use
-        model_path = self.config.distilled_model_path
-        model_path.parent.mkdir(parents=True, exist_ok=True)
-        self.model.save_pretrained(str(model_path))
-        logger.info(f"Distilled model saved to {model_path}")
+            # Download from HuggingFace Hub
+            logger.info(f"Downloading model from HuggingFace: {self.config.model_name}")
+            self.model = StaticModel.from_pretrained(self.config.model_name)
+            
+            # Cache locally for faster future loads
+            model_path.parent.mkdir(parents=True, exist_ok=True)
+            self.model.save_pretrained(str(model_path))
+            logger.info(f"Model cached to {model_path}")
     
     def _load_topics(self):
         """Load topic taxonomy, downloading if necessary."""

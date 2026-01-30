@@ -1,28 +1,30 @@
 # OpenAlex Topic Classifier
 
-**Lightweight CPU-based topic classification for scientific datasets using OpenAlex taxonomy.**
+**Fine-tuned CPU-based topic classification for scientific datasets using OpenAlex taxonomy.**
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![HuggingFace Model](https://img.shields.io/badge/🤗-Model-yellow)](https://huggingface.co/jimnoneill/openalex-topic-classifier-finetuned)
+[![HuggingFace Dataset](https://img.shields.io/badge/🤗-Dataset-blue)](https://huggingface.co/datasets/jimnoneill/openalex-topic-classification-10k)
 
 ## Overview
 
-This classifier assigns [OpenAlex topics](https://docs.openalex.org/api-entities/topics) to scientific dataset metadata using semantic embedding similarity. It maps datasets to the 4,516 topics in the OpenAlex taxonomy, along with their hierarchical subfield, field, and domain classifications.
+This classifier assigns [OpenAlex topics](https://docs.openalex.org/api-entities/topics) to scientific dataset metadata using a fine-tuned embedding model. It maps datasets to the 4,516 topics in the OpenAlex taxonomy, along with their hierarchical subfield, field, and domain classifications.
 
 **Key features:**
 - 🚀 **~3,000 records/second** on CPU (no GPU required)
 - 📊 **4,516 OpenAlex topics** with full hierarchy
-- 🎯 **94.6% classification rate** above 0.50 confidence threshold
+- 🎯 **92.6% domain accuracy, 62.6% topic accuracy** (fine-tuned model)
 - 💻 **Single dependency install** — works on any machine
 
 ## Quick Start
 
 ```bash
 # Install directly from GitHub
-pip install git+https://github.com/jimnoneill/openalex-topic-classifier.git
+pip install git+https://github.com/jamesoneill12/openalex-topic-classifier.git
 
 # Or clone and install locally
-git clone https://github.com/jimnoneill/openalex-topic-classifier.git
+git clone https://github.com/jamesoneill12/openalex-topic-classifier.git
 cd openalex-topic-classifier
 pip install -e .
 ```
@@ -52,10 +54,10 @@ print(result)
 
 ```bash
 # Option 1: Install directly from GitHub (recommended)
-pip install git+https://github.com/jimnoneill/openalex-topic-classifier.git
+pip install git+https://github.com/jamesoneill12/openalex-topic-classifier.git
 
 # Option 2: Clone and install locally
-git clone https://github.com/jimnoneill/openalex-topic-classifier.git
+git clone https://github.com/jamesoneill12/openalex-topic-classifier.git
 cd openalex-topic-classifier
 pip install -e .
 
@@ -136,29 +138,39 @@ Records should have at minimum a `title` field. Additional fields improve classi
 
 Tested on 32-core AMD Threadripper with real DataCite metadata. Performance scales linearly with CPU cores.
 
-## Validation
+## Validation Results
 
-Validated against [CWTS/OpenAlex ground truth](https://zenodo.org/records/10560276) (192 records with title + abstract):
+The fine-tuned model was validated against a held-out test set of 1,525 records with ground truth OpenAlex classifications:
 
-| CWTS Domain | Accuracy |
-|-------------|----------|
-| Physical sciences & engineering | 78.8% |
-| Life and earth sciences | 78.6% |
-| Social sciences & humanities | 77.5% |
-| Mathematics & computer science | 73.2% |
-| Biomedical & health sciences | 56.0% |
-| **Overall** | **71.4%** |
+| Level | Accuracy | Description |
+|-------|----------|-------------|
+| **Domain** | **92.6%** | 4 domains: Physical Sciences, Life Sciences, Social Sciences, Health Sciences |
+| **Field** | **85.8%** | ~26 fields: Chemistry, Medicine, Computer Science, etc. |
+| **Subfield** | **73.6%** | ~250 subfields: more specific research areas |
+| **Topic** | **62.6%** | 4,516 topics: granular research topics |
 
-Note: Accuracy reflects mapping between CWTS 5-domain taxonomy and OpenAlex's more granular domain structure.
+### Model Comparison
+
+| Model | Domain | Field | Subfield | Topic |
+|-------|--------|-------|----------|-------|
+| Base (potion-32m) | 77.2% | 60.5% | 27.9% | 16.2% |
+| **Fine-tuned** | **92.6%** | **85.8%** | **73.6%** | **62.6%** |
+
+The fine-tuned model achieves +15% improvement on domain accuracy and +46% improvement on exact topic matching compared to the base embedding model.
+
+### Training Data
+
+The model was fine-tuned on 10,500 scientific records with ground truth topic classifications aligned with the OpenAlex taxonomy.
+
+- **Dataset**: [jimnoneill/openalex-topic-classification-10k](https://huggingface.co/datasets/jimnoneill/openalex-topic-classification-10k)
+- **Model**: [jimnoneill/openalex-topic-classifier-finetuned](https://huggingface.co/jimnoneill/openalex-topic-classifier-finetuned)
 
 ## Method
 
-1. **Text Extraction**: Concatenate title + subjects/keywords from metadata
-2. **Semantic Embedding**: Distilled BGE-small model (Model2Vec compression)
+1. **Text Extraction**: Concatenate title + subjects/keywords + description from metadata
+2. **Semantic Embedding**: Fine-tuned Model2Vec static embeddings
 3. **Topic Matching**: Cosine similarity against 4,516 pre-embedded topics
 4. **Hierarchical Output**: Return topic → subfield → field → domain
-
-The distilled model achieves 91% of the full transformer's quality at 10x the speed.
 
 ## OpenAlex Topic Hierarchy
 
@@ -175,16 +187,20 @@ Example:
 - **Subfield**: Artificial Intelligence
 - **Topic**: Natural Language Processing
 
+## S-Index Challenge
+
+This classifier was developed for the **S-Index Challenge**, enabling automated topic classification of scientific datasets in DataCite to support research discovery and bibliometric analysis.
+
 ## Citation
 
 If you use this classifier, please cite:
 
 ```bibtex
 @software{openalex_topic_classifier,
-  author = {O'Neill, James and Patel, Bhavesh},
+  author = {O'Neill, James},
   title = {OpenAlex Topic Classifier},
   year = {2026},
-  url = {https://github.com/jimnoneill/openalex-topic-classifier}
+  url = {https://github.com/jamesoneill12/openalex-topic-classifier}
 }
 ```
 
@@ -195,6 +211,5 @@ MIT License - see [LICENSE](LICENSE) for details.
 ## Acknowledgments
 
 - [OpenAlex](https://openalex.org/) for the topic taxonomy
-- [BAAI/bge-small-en-v1.5](https://huggingface.co/BAAI/bge-small-en-v1.5) base embedding model
-- [Model2Vec](https://github.com/MinishLab/model2vec) for model distillation
-
+- [minishlab/potion-base-32m](https://huggingface.co/minishlab/potion-base-32m) base embedding model
+- [Model2Vec](https://github.com/MinishLab/model2vec) for model distillation and training

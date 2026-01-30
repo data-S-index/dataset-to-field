@@ -48,8 +48,8 @@ def _find_models_dir() -> Path:
 class Config:
     """Configuration settings for the topic classifier."""
     
-    # Model settings
-    model_name: str = "BAAI/bge-small-en-v1.5"
+    # Model settings - Fine-tuned OpenAlex topic classifier
+    model_name: str = "jimnoneill/openalex-topic-classifier-finetuned"  # Fine-tuned on OpenAlex taxonomy
     pca_dims: int = 256  # Dimensions for distilled model
     
     # Classification settings
@@ -73,8 +73,8 @@ class Config:
     
     @property
     def distilled_model_path(self) -> Path:
-        """Path to distilled embedding model."""
-        return self.models_dir / "bge-small-distilled"
+        """Path to cached embedding model."""
+        return self.models_dir / "openalex-topic-classifier-finetuned"
     
     @property
     def topic_embeddings_path(self) -> Path:
