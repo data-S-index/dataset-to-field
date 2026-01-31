@@ -40,13 +40,13 @@ htmlcov/
 .tox/
 .nox/
 
-# Models (large files - download from HuggingFace)
-*.safetensors
-**/models/*/model.safetensors
-**/models/*/tokenizer.json
-**/models/topic_embeddings.npy
+# Validation data (large files, not needed for distribution)
 validation/finetuned_models/
 validation/llm_ground_truth/
+
+# Other distilled models (not the main classifier)
+src/openalex_classifier/models/mxbai-embed-large-static-256/
+src/openalex_classifier/models/openalex-topic-classifier-48k/
 
 # Jupyter
 .ipynb_checkpoints/
