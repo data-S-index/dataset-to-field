@@ -20,12 +20,13 @@ This classifier assigns [OpenAlex topics](https://docs.openalex.org/api-entities
 ## Quick Start
 
 ```bash
-# Install directly from GitHub
-pip install git+https://github.com/jimnoneill/openalex-topic-classifier.git
-
-# Or clone and install locally
+# Clone the repository (requires Git LFS for model files)
+git lfs install
 git clone https://github.com/jimnoneill/openalex-topic-classifier.git
 cd openalex-topic-classifier
+git lfs pull  # Download model files (~140 MB)
+
+# Install
 pip install -e .
 ```
 
@@ -52,21 +53,27 @@ print(result)
 
 ## Installation
 
-```bash
-# Option 1: Install directly from GitHub (recommended)
-pip install git+https://github.com/jimnoneill/openalex-topic-classifier.git
+This repository uses **Git LFS** to store model files. Make sure Git LFS is installed before cloning.
 
-# Option 2: Clone and install locally
+```bash
+# 1. Install Git LFS (if not already installed)
+git lfs install
+
+# 2. Clone the repository
 git clone https://github.com/jimnoneill/openalex-topic-classifier.git
 cd openalex-topic-classifier
-pip install -e .
 
-# Models are downloaded automatically on first run
+# 3. Pull model files (~140 MB)
+git lfs pull
+
+# 4. Install the package
+pip install -e .
 ```
 
 ### Requirements
 - Python 3.10+
-- ~500MB disk space for models
+- Git LFS (for model files)
+- ~200MB disk space for models
 - No GPU required
 
 ## Usage
