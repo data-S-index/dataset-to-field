@@ -48,8 +48,8 @@ def _find_models_dir() -> Path:
 class Config:
     """Configuration settings for the topic classifier."""
     
-    # Model settings - Fine-tuned OpenAlex topic classifier
-    model_name: str = "jimnoneill/openalex-topic-classifier"  # Fine-tuned on OpenAlex taxonomy
+    # Model settings - Fine-tuned dataset research field classifier
+    model_name: str = "jimnoneill/dataset-to-field"  # Fine-tuned on OpenAlex taxonomy
     pca_dims: int = 512  # Dimensions for fine-tuned model (potion-base-32m output)
     
     # Classification settings
@@ -74,7 +74,7 @@ class Config:
     @property
     def distilled_model_path(self) -> Path:
         """Path to cached embedding model."""
-        return self.models_dir / "openalex-topic-classifier"
+        return self.models_dir / "dataset-to-field"
     
     @property
     def topic_embeddings_path(self) -> Path:

@@ -4,8 +4,8 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![HuggingFace Model](https://img.shields.io/badge/🤗-Model-yellow)](https://huggingface.co/jimnoneill/openalex-topic-classifier)
-[![HuggingFace Dataset](https://img.shields.io/badge/🤗-Dataset-blue)](https://huggingface.co/datasets/jimnoneill/openalex-topic-classification-10k)
+[![HuggingFace Model](https://img.shields.io/badge/🤗-Model-yellow)](https://huggingface.co/jimnoneill/dataset-to-field)
+[![HuggingFace Dataset](https://img.shields.io/badge/🤗-Dataset-blue)](https://huggingface.co/datasets/jimnoneill/dataset-to-field-training-10k)
 
 ## Overview
 
@@ -22,8 +22,8 @@ This classifier assigns a research field to scientific datasets based on their m
 ```bash
 # Clone the repository (requires Git LFS for model files)
 git lfs install
-git clone https://github.com/jimnoneill/openalex-topic-classifier.git
-cd openalex-topic-classifier
+git clone https://github.com/data-S-index/dataset-to-field.git
+cd dataset-to-field
 git lfs pull  # Download model files (~140 MB)
 
 # Install
@@ -60,8 +60,8 @@ This repository uses **Git LFS** to store model files. Make sure Git LFS is inst
 git lfs install
 
 # 2. Clone the repository
-git clone https://github.com/jimnoneill/openalex-topic-classifier.git
-cd openalex-topic-classifier
+git clone https://github.com/data-S-index/dataset-to-field.git
+cd dataset-to-field
 
 # 3. Pull model files (~140 MB)
 git lfs pull
@@ -173,8 +173,8 @@ The fine-tuned model achieves +15% improvement on domain accuracy and +46% impro
 
 The model was fine-tuned on 10,500 scientific records with ground truth topic classifications aligned with the OpenAlex taxonomy.
 
-- **Dataset**: [jimnoneill/openalex-topic-classification-10k](https://huggingface.co/datasets/jimnoneill/openalex-topic-classification-10k)
-- **Model**: [jimnoneill/openalex-topic-classifier](https://huggingface.co/jimnoneill/openalex-topic-classifier)
+- **Dataset**: [jimnoneill/dataset-to-field-training-10k](https://huggingface.co/datasets/jimnoneill/dataset-to-field-training-10k)
+- **Model**: [jimnoneill/dataset-to-field](https://huggingface.co/jimnoneill/dataset-to-field)
 
 ## Method
 
@@ -183,7 +183,7 @@ The model was fine-tuned on 10,500 scientific records with ground truth topic cl
 3. **Topic Matching**: Cosine similarity against 4,516 pre-embedded topics
 4. **Hierarchical Output**: Return topic → subfield → field → domain
 
-## OpenAlex Topic Hierarchy
+## Topic Hierarchy
 
 ```
 Domain (4)
