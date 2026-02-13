@@ -1,6 +1,6 @@
-# OpenAlex Topic Classifier
+# Dataset Research Field Classifier
 
-**Fine-tuned CPU-based topic classification for scientific datasets using OpenAlex taxonomy.**
+**Fine-tuned CPU-based classification of scientific datasets into research fields using OpenAlex topics taxonomy.**
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,7 +9,7 @@
 
 ## Overview
 
-This classifier assigns [OpenAlex topics](https://docs.openalex.org/api-entities/topics) to scientific dataset metadata using a fine-tuned embedding model. It maps datasets to the 4,516 topics in the OpenAlex taxonomy, along with their hierarchical subfield, field, and domain classifications.
+This classifier assigns as research to scientific datasets based on their metadata using a fine-tuned embedding model. It maps datasets to the 4,516 topics in the [OpenAlex taxonomy](https://docs.openalex.org/api-entities/topics), along with their hierarchical subfield, field, and domain classifications.
 
 **Key features:**
 - 🚀 **~48,000 records/second** on CPU with parallel processing (no GPU required)
@@ -197,10 +197,6 @@ Example:
 - **Field**: Computer Science  
 - **Subfield**: Artificial Intelligence
 - **Topic**: Natural Language Processing
-
-## S-Index Challenge
-
-This classifier was developed for the **S-Index Challenge**, enabling automated topic classification of scientific datasets in DataCite to support research discovery and bibliometric analysis.
 
 ## Citation
 
