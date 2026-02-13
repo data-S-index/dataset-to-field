@@ -9,7 +9,7 @@
 
 ## Overview
 
-This classifier assigns as research to scientific datasets based on their metadata using a fine-tuned embedding model. It maps datasets to the 4,516 topics in the [OpenAlex taxonomy](https://docs.openalex.org/api-entities/topics), along with their hierarchical subfield, field, and domain classifications.
+This classifier assigns as research to scientific datasets based on their metadata using a fine-tuned embedding model. It maps datasets to the 4,516 topics in the [OpenAlex taxonomy](https://docs.openalex.org/api-entities/topics), along with their hierarchical subfield, field, and domain classifications. This was developed as part of our NIH S-index Challenge Phase 2 proposal. We refer to the [S-index Hub](https://github.com/data-S-index/hub) for more information about our S-index and the Challenge.
 
 **Key features:**
 - 🚀 **~48,000 records/second** on CPU with parallel processing (no GPU required)
